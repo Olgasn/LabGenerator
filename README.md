@@ -24,10 +24,6 @@
 Комплекс ориентирован на преподавателя, осуществляющего полный цикл подготовки учебных материалов — от формирования структуры дисциплины до выпуска набора верифицированных вариантов заданий.
 
 
-## Статус
-
-[![.NET Build and Tests](https://github.com/IT-GSTU/generating_lab_assignments/actions/workflows/dotnet-ci.yml/badge.svg?branch=main)](https://github.com/IT-GSTU/generating_lab_assignments/actions/workflows/dotnet-ci.yml)
-
 
 ## 2. Технологический стек
 
