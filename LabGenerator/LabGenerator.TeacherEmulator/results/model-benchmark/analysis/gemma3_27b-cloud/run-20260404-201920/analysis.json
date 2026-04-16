@@ -1,0 +1,47 @@
+{
+  "StartedAtUtc": "2026-04-04T20:19:20.8123356+00:00",
+  "FinishedAtUtc": "2026-04-04T20:19:30.353539+00:00",
+  "InputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\gemma3_27b-cloud\\run-20260404-201649",
+  "OutputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\analysis\\gemma3_27b-cloud\\run-20260404-201920",
+  "CriteriaPath": null,
+  "Results": [
+    {
+      "RunId": "test-072",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\gemma3_27b-cloud\\run-20260404-201649\\run-test-072\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\gemma3_27b-cloud\\run-20260404-201649\\run-test-072\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 72)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание соответствует дисциплине, так как фокусируется на объектно-ориентированном проектировании, инкапсуляции, наследовании и полиморфизме.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Доступна только одна лабораторная работа, поэтому сравнение различий между работами невозможно.",
+        "SequenceLogical": true,
+        "SequenceReason": "Лабораторная работа 1 логична как начальная работа по созданию прототипа."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": false,
+          "VariantsDifferences": "Варианты не были сгенерированы из-за ошибки на этапе генерации.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Невозможно оценить сложность вариантов, так как они отсутствуют.",
+          "MissingGenerationReason": "Ошибка генерации: не удалось создать уникальный вариант #2 после 5 попыток.",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и четко структурировано. Качество высокое, но можно улучшить детализацию некоторых требований."
+        }
+      ]
+    }
+  ]
+}

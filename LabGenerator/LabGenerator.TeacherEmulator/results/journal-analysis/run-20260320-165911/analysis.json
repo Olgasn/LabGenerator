@@ -1,0 +1,1651 @@
+{
+  "StartedAtUtc": "2026-03-20T16:59:11.5029778+00:00",
+  "FinishedAtUtc": "2026-03-20T17:35:41.4875633+00:00",
+  "InputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558",
+  "OutputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\journal-analysis\\run-20260320-165911",
+  "CriteriaPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\Критерии оценки.txt",
+  "Results": [
+    {
+      "RunId": "test-013",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-013\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-013\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 13)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание по разработке клиент-серверного приложения для передачи файлов с использованием TCP/IP соответствует тематике компьютерных сетей.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Сгенерирована только одна лабораторная работа, сравнение невозможно.",
+        "SequenceLogical": true,
+        "SequenceReason": "Для одной работы последовательность тривиальна."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицина, музей, игровая индустрия), технологическим стеком (Python/SQLite, Go/PostgreSQL, Python/PyQt6) и конкретными дополнительными требованиями (аутентификация/шифрование, докачка/сжатие, GUI/многопоточная передача).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 1 и 3 имеют высокую сложность, а вариант 2 — среднюю, согласно метаданным. Оценка времени одинакова, но требования различаются.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы (цель, постановка задачи, контракт, требования, критерии оценки). Формулировки ясные и конкретные. Варианты хорошо проработаны и соответствуют мастер-заданию."
+        }
+      ]
+    },
+    {
+      "RunId": "test-014",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-014\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-014\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 14)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания посвящены сетевым технологиям: разработка клиент-серверного приложения и тестирование сетевых протоколов, что соответствует дисциплине.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Первая работа — разработка прототипа приложения для передачи файлов, вторая — проектирование тестов и анализ протоколов. Задачи и фокус различны.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базового сетевого приложения (практика) к более сложной задаче тестирования и анализа протоколов (верификация)."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицина, наука, игры) и технологическим стеком (Python/Go, разные библиотеки). Содержание и требования адаптированы под контекст.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 1 и 2 оценены как high (8 часов), вариант 3 — high, но с оценкой 20 часов, что указывает на разный уровень сложности.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются тестируемым протоколом (HTTP, FTP, DNS), предметной областью (интернет-магазин, облачное хранилище, банк) и инструментами (Python/Go, разные библиотеки).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют средний уровень сложности (complexity: medium) и схожее расчетное время выполнения (3.5–4 часа).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы: цель, задачу, требования, ограничения, граничные случаи, критерии оценки. Формулировки ясные и полные. Варианты детально проработаны и адаптированы."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Мастер-задание корректно и полно. Варианты соответствуют теме, но имеют небольшие несоответствия с мастер-заданием (отсутствие тестов безопасности, неполные граничные случаи), что отмечено в отчетах верификации. Формулировки в вариантах ясные, но менее детализированы."
+        }
+      ]
+    },
+    {
+      "RunId": "test-015",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-015\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-015\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 15)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены сетевым технологиям: протоколы передачи данных, тестирование сетевых протоколов, балансировка нагрузки.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: 1 - разработка прототипа, 2 - тестирование и отладка, 3 - оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа, через тестирование, к оптимизации и масштабированию."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотечная система, чат-система, мониторинг транспорта), технологическим стеком и механизмом реализации протокола (скользящее окно, подтверждение каждого пакета, селективное повторение).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Уровень сложности разный: два варианта medium (8 и 6 часов), один high (12 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым протоколом (SMTP, MQTT, DNS) и предметной областью (интернет-магазин, умный дом, система видеонаблюдения).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Все варианты medium, но разное estimated_hours (16, 20, 16 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-кинотеатр, IoT-датчики, онлайн-образование) и технологическим стеком.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Все варианты high, но разное estimated_hours (24, 35, 40 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы, формулировки понятны и однозначны."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание подробно описывает цель, задачи, требования, инструменты и критерии оценки. Предусмотрены различные аспекты тестирования."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание содержит четкую постановку задачи, контракт ввода-вывода, требования, граничные случаи и критерии оценки. Все аспекты балансировки нагрузки учтены."
+        }
+      ]
+    },
+    {
+      "RunId": "test-016",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-016\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-016\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 16)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены темам компьютерных сетей: анализ пакетов, тестирование протоколов, балансировка нагрузки и измерение производительности.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы различаются по тематическому фокусу: прототипирование, тестирование, оптимизация и эксперимент. Каждая работа имеет уникальную цель и задачи.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа к тестированию, затем оптимизации и завершается экспериментом с анализом. Это соответствует этапам разработки сетевых приложений."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для обработки пакетов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (кинотеатр, умный дом, библиотека) и технологическим стеком (RTMP/HLS/DASH, PyShark/Pandas, Flask/SQLAlchemy).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Оценка сложности: два варианта на 6 часов, один на 8 часов. Небольшой разброс в оценке трудозатрат.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым протоколом (FTP, SMTP, DNS), предметной областью и инструментами (Wireshark/FileZilla, tshark/Postfix, tcpdump/dig).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты оценены как medium сложности с одинаковой оценкой в 16 часов.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, больничная система, онлайн-кинотеатр), технологическим стеком (Python/Redis, Go/TLS, Java/Netty) и дополнительными требованиями (кэширование, шифрование, медиа-серверы).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Все варианты оценены как high сложности, но оценка часов различается: 12, 10 и 12 часов.",
+          "MissingGenerationReason": "Вариант 1 имеет обрыв контента, задание неполное. Причина: ошибка генерации."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа №4: Анализ производительности сетевых протоколов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (видеонаблюдение, умный дом, онлайн-игры) и технологическим стеком (OpenCV, MQTT/CoAP, pandas).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Оценка сложности: один вариант high (8 часов), два варианта medium (6 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для обработки пакетов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Мастер-задание корректное и полное. Варианты в основном повторяют мастер, но в некоторых отсутствуют разделы критериев оценки и инструментов. Формулировки ясные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Мастер-задание детальное и полное. Варианты адаптированы под разные протоколы, но имеют замечания по отсутствию конкретных деталей тест-кейсов. В целом понятно."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "Correctness": 3,
+          "Quality": 3,
+          "Completeness": 2,
+          "Clarity": 3,
+          "Justification": "Мастер-задание хорошее. Вариант 1 обрывается, что делает его неполным. Варианты 2 и 3 полные, но имеют расхождения с мастером по языку и формату. Ясность снижена из-за неполноты."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа №4: Анализ производительности сетевых протоколов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Мастер-задание и варианты полные, корректные и ясные. Варианты минимально адаптированы под предметные области без потери содержания."
+        }
+      ]
+    },
+    {
+      "RunId": "test-017",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-017\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-017\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 17)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены ключевым темам компьютерных сетей: сетевое программирование, тестирование протоколов, оптимизация производительности, анализ протоколов TCP/UDP, контейнеризация сетевых приложений.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая работа имеет уникальный тематический фокус: прототипирование (ЛР1), тестирование (ЛР2), оптимизация (ЛР3), эксперимент (ЛР4), интеграция (ЛР5). Задания охватывают разные этапы разработки сетевых приложений.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базового прототипа к тестированию, оптимизации, экспериментальному анализу и финальному развертыванию. Это соответствует этапам изучения сетевых технологий."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого чата",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинский центр, библиотека, онлайн-игра), технологическим стеком (Python/cryptography, Java, C#) и конкретными дополнительными требованиями (шифрование, приватные сообщения, файловые вложения).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 имеет сложность 'medium' (4 часа), варианты 1 и 3 - 'high' (8 часов). Разный стек технологий и функциональные требования создают разный уровень сложности.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-магазин, склад, игровая система) и конкретным фокусом тестирования (управление перегрузкой, повторные передачи, фрагментация пакетов). Технологический стек в основном Python/Scapy с небольшими вариациями.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 имеет сложность 'medium' (6 часов), варианты 1 и 3 - 'high' (8 и 6 часов). Разная глубина тестирования и количество тест-кейсов влияют на сложность.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-кинотеатр, бронирование билетов, управление складом) и технологическим стеком (Python/Flask/Redis, Node.js, Go). В варианте 1 упрощены требования по алгоритмам балансировки.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 1 имеет сложность 'medium' (8 часов), варианты 2 и 3 - 'high' (8 и 12 часов). Использование разных языков и архитектурных решений создает разную сложность реализации.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-библиотека, онлайн-игра, видеонаблюдение) и технологическим стеком (Python, C#/.NET, Java). Вариант 1 содержит расширенную методику тестирования и дополнительные метрики.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 1 имеет сложность 'medium' (6 часов), варианты 2 и 3 - 'high' (10 и 8 часов). Разные языки программирования и объем анализа результатов влияют на сложность.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Развертывание сетевого приложения с использованием контейнеризации",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются типом приложения (чат, файловый обменник, мониторинг транспорта), предметной областью и технологическим стеком (Python/asyncio, Node.js/React/PostgreSQL, Go/Redis/React). Архитектура и количество сервисов различаются.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 1 имеет сложность 'medium' (12 часов), варианты 2 и 3 - 'high' (20 и 16 часов). Значительно различается объем работы: от простого чата до многокомпонентных систем с БД и фронтендом.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого чата",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, имеет четкую структуру: цель, постановка задачи, контракт ввода-вывода, требования, граничные случаи, критерии оценки. Варианты хорошо дифференцированы, но верификация выявила мелкие несоответствия (таймауты, лимит клиентов)."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает процесс тестирования TCP, включает входные/выходные данные, требования к тестам, вариативность. Варианты детализированы по конкретным аспектам протокола. Незначительные замечания по детализации и использованию библиотек."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко ставит задачу по созданию системы кэширования и балансировки. Варианты хорошо адаптированы под предметные области. В варианте 1 упрощены требования по алгоритмам балансировки, что отмечено верификацией."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко описывает эксперимент по сравнению TCP/UDP, включает методику тестирования, метрики, обработку ошибок. Вариант 1 особенно детализирован. Формат отчета и критерии оценки ясны."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Развертывание сетевого приложения с использованием контейнеризации",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно охватывает тему контейнеризации: архитектура, Docker-конфигурация, сетевая настройка, обработка ошибок. Варианты сложные и разнообразные. Верификация отметила отсутствие некоторых требуемых элементов (балансировка, TLS) в отдельных вариантах."
+        }
+      ]
+    },
+    {
+      "RunId": "test-018",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-018\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-018\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 18)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все задания посвящены ключевым темам компьютерных сетей: анализ пакетов, тестирование протоколов, балансировка нагрузки, производительность, развертывание и безопасность.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая работа имеет уникальный тематический фокус: прототип, тестирование, оптимизация, эксперимент, интеграция и безопасность. Задачи и цели различны.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа и тестирования к оптимизации, эксперименту, интеграции и завершается анализом безопасности. Соответствует нарастанию сложности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для обработки пакетов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (кинотеатр, библиотека, больница) и технологическим стеком (Python/Scapy, Go/gopacket, Python/Flask). Вариативная часть соответствует разным вариантам из мастер-задания.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 3 имеет сложность 'high' и оценку в 12 часов, варианты 1 и 2 — 'medium' и 8 часов. Многонитевая обработка и веб-интерфейс сложнее.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа №2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты сфокусированы на разных протоколах (TCP, UDP, ICMP) для разных предметных областей (интернет-магазин, видеонаблюдение, умный дом) с разным стеком технологий (Python, C++, Go).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 (C++, видеонаблюдение) имеет сложность 'high' и 8 часов, варианты 1 и 3 — 'medium' и 4 часа. Тестирование видеопотока требует более глубокой реализации.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, онлайн-кинотеатр, многопользовательская игра) и технологическим стеком (Python/SNMP, Go/gRPC, Node.js/geoip). В варианте 1 детально описан взвешенный Round Robin.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все три варианта имеют сложность 'high' и оценку в 14 часов, хотя детализация различается.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, умный дом, многопользовательская игра) и технологическим стеком (Python, Java, C#). Каждый вариант фокусируется на разных аспектах эксперимента (размер окна TCP, размер пакета, алгоритм Нейгла).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 2 и 3 имеют сложность 'high' и оценку в 20-25 часов, вариант 1 — 'medium' и 12 часов. Использование Java/C# и более сложных инструментов повышает сложность.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Развертывание сетевого приложения с использованием контейнеризации",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, больница, кинотеатр) и технологическим стеком (Python/FastAPI, Node.js/Express, Java/Spring Boot). Функциональные требования адаптированы под домен.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'medium' и оценку в 6-8 часов, что соответствует базовой задаче развертывания.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Анализ уязвимостей сетевой инфраструктуры и разработка мер защиты",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинский центр, банковский филиал, логистический центр) и набором инструментов безопасности (Nmap/OpenVAS, Nessus/Burp Suite, Acunetix/SQLMap). Сценарии сети и угрозы специфичны.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все три варианта имеют сложность 'high' и оценку в 20 часов, требуют комплексного анализа и использования специализированного ПО.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для обработки пакетов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит конкретные цели, требования, ограничения и критерии оценки. Варианты хорошо дифференцированы и соответствуют мастер-заданию."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа №2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание логично, но в вариантах есть мелкие несоответствия мастер-заданию (пропущены некоторые тестовые сценарии). Формулировки ясные, структура отчета прописана."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Мастер-задание детальное, но в вариантах 2 и 3 не полностью реализована вариативная часть (например, не указаны метрики CPU). Общая ясность сохраняется."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает эксперимент, входные/выходные данные, требования. Варианты корректно отражают специфику разных аспектов сравнения протоколов."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Развертывание сетевого приложения с использованием контейнеризации",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Мастер-задание общее, но варианты адаптированы под домены. Недостаточно деталей по производительности и безопасности в вариантах, но общая структура понятна."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Анализ уязвимостей сетевой инфраструктуры и разработка мер защиты",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание практико-ориентированное, но в вариантах отсутствуют некоторые элементы вывода (матрица уязвимостей) и детали методологии оценки рисков. Сценарии реалистичны."
+        }
+      ]
+    },
+    {
+      "RunId": "test-019",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-019\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-019\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 19)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание на разработку клиент-серверного приложения с TCP-сокетами, аутентификацией и передачей файлов соответствует тематике компьютерных сетей.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Сгенерирована только одна лабораторная работа, сравнение невозможно.",
+        "SequenceLogical": false,
+        "SequenceReason": "Только одна работа, оценка логической последовательности не применима."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицина, логистика, образование) и технологическим стеком (Python/AES-256, Java/SQLite, Go/TLS). Вариант 1 также имеет отличия в контракте (фиксированный порт 10443, логи с временем) и отсутствуют разделы с вариантами заданий и ограничениями.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Заявленная сложность разная: варианты 1 и 3 - high, вариант 2 - medium. При этом оценка времени одинакова (8 часов), что создает противоречие.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно, четко структурировано и ясно сформулировано. Неполнота в варианте 1 (отсутствуют разделы с вариантами заданий и ограничениями) снижает общую оценку качества и полноты."
+        }
+      ]
+    },
+    {
+      "RunId": "test-020",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-020\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-020\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 20)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания посвящены разработке сетевых приложений и тестированию сетевых протоколов, что соответствует дисциплине «Компьютерные сети».",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторная работа 1 фокусируется на разработке прототипа клиент-серверного приложения, а работа 2 — на тестировании и отладке сетевых протоколов. Темы и цели различны.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: сначала создание сетевого приложения (базовые навыки), затем его тестирование и анализ (продвинутые навыки)."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа модуля сетевого взаимодействия",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, умный дом, медицинский мониторинг), технологическим стеком (Python, C++, Java) и дополнительными требованиями (многопоточность, статистика, аутентификация).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность в основном medium, но оценка часов варьируется (6, 8, 6). Вариант 2 (умный дом) требует больше времени (8 часов) из-за аутентификации и статистики.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым протоколом (FTP, SMTP, DNS), предметной областью (библиотека, умный дом, медицинский мониторинг) и технологическим стеком (Python, Java, Go).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Два варианта имеют сложность medium, один — high. Оценка часов разная (16, 20, 16). Вариант 2 (SMTP) самый объемный (20 часов), вариант 3 (DNS) отмечен как high complexity.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа модуля сетевого взаимодействия",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и четко структурировано. Имеются цель, постановка задачи, требования, критерии оценки и рекомендации. Варианты адаптированы под разные предметные области."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет цели, входные/выходные данные, требования и критерии. Варианты охватывают разные протоколы и контексты, сохраняя общую структуру. Отчеты верификации подтверждают высокое качество."
+        }
+      ]
+    },
+    {
+      "RunId": "test-021",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-021\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-021\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 21)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены сетевым технологиям: разработка клиент-серверных приложений, тестирование протоколов, оптимизация производительности сетей.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: создание прототипа, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа к его тестированию и далее к оптимизации производительности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для передачи файлов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, медицинское учреждение, музыкальная студия) и рекомендуемым технологическим стеком (Python, Java, C#). В варианте 3 также изменен порт сервера.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Во всех вариантах указана одинаковая сложность (medium) и одинаковое расчетное время выполнения (8 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым протоколом (FTP, SMTP, DNS), предметной областью и детализированными требованиями к тестовым сценариям и инструментам.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 имеет сложность 'high' и оценку в 8 часов, в то время как варианты 1 и 3 имеют сложность 'medium' и оценку в 6 часов.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью и технологическим стеком. Вариант 1 адаптирован под библиотечную систему, варианты 2 и 3 практически дублируют мастер-задание с минимальной адаптацией.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 1 имеет сложность 'medium' (12 часов), а варианты 2 и 3 — 'high' (20 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для передачи файлов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы: цель, постановку задачи, контракт, требования, критерии оценки. Формулировки ясные и полные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание корректно и соответствует теме. Качество и полнота немного снижены из-за несоответствий в требованиях к количеству тестов между вариантами и замечаний верификации (например, отсутствие тестов на стрессоустойчивость)."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "Correctness": 5,
+          "Quality": 3,
+          "Completeness": 3,
+          "Clarity": 4,
+          "Justification": "Задание корректно по теме, но качество и полнота снижены из-за слабой адаптации вариантов 2 и 3 к предметной области (практически копируют мастер). Вариант 1 адаптирован лучше."
+        }
+      ]
+    },
+    {
+      "RunId": "test-022",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-022\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-022\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 22)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены сетевым технологиям: обработка пакетов, тестирование протоколов, балансировка нагрузки, анализ производительности TCP/UDP.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы охватывают разные этапы разработки и исследования сетей: создание прототипа, тестирование, оптимизация, эксперимент.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от базовой реализации сетевого модуля к тестированию, затем оптимизации и завершающему анализу производительности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для обработки пакетов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинское оборудование, умный дом, онлайн-игры) и технологическим стеком (C++17/Rust/Python).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'medium' и оценку в 8 часов.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются тестируемым протоколом (HTTP/1.1, WebSocket, SMTP), предметной областью и инструментами (Docker/Python, Node.js, Bash).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Два варианта имеют сложность 'high' (8 часов), один — 'medium' (4 часа).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью и технологическим стеком (Python, Go, Node.js/Docker/Kubernetes). Первый вариант также добавляет специфичные для медицины требования.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется: 'high' (8 и 12 часов) и 'medium' (6 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются предметной областью и технологическим стеком (Python с разными библиотеками, C#/.NET). Содержательно варианты почти идентичны мастер-заданию.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Два варианта 'high' (18 часов), один 'medium' (16 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для обработки пакетов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно описывает цель, задачу, контракт ввода-вывода, требования, ограничения, критерии оценки. Формулировки ясные и структурированные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание в целом корректно и понятно, но в вариантах отмечены незначительные недостатки (например, отсутствие деталей нагрузочного тестирования). Структура хорошая."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет цель, задачу, требования и критерии. Варианты хорошо адаптированы под предметные области, сохраняя основную суть."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно и полно, но варианты практически дословно повторяют мастер-задание, добавляя лишь предметную область и стек. Ясность отличная."
+        }
+      ]
+    },
+    {
+      "RunId": "test-023",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-023\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-023\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 23)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены ключевым темам компьютерных сетей: сетевое программирование, протоколы TCP/UDP, тестирование, балансировка нагрузки, анализ производительности и развертывание.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Работы имеют разные тематические фокусы: разработка прототипа, тестирование, оптимизация, эксперимент и интеграция. Каждая работа решает уникальную задачу в рамках дисциплины.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базового приложения к его тестированию, оптимизации, анализу производительности и финальному развертыванию. Это соответствует поэтапному изучению сетевых технологий."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого приложения для передачи файлов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, медицина, онлайн-игры) и технологическим стеком (Python, Java, C#). Содержание вариантов 2 и 3 полное, вариант 1 сокращен.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется: вариант 2 (high, 8 часов) сложнее вариантов 1 и 3 (medium, 6 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью и детализацией. Вариант 2 (медицина) наиболее подробный, с уникальными сценариями и инструментами. Варианты 1 и 3 ближе к мастер-заданию.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 2 и 3 имеют высокую сложность (8 часов), вариант 1 — среднюю (6 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью и технологическим стеком. Вариант 1 расширен дополнительными метриками и деталями. Варианты 2 и 3 практически идентичны мастер-заданию.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 2 и 3 имеют высокую сложность (14 часов), вариант 1 — среднюю (12 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью и детализацией. Вариант 1 (библиотека) расширен специфичными сценариями и данными. Варианты 2 и 3 близки к мастер-заданию.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 2 и 3 имеют высокую сложность (6 и 8 часов), вариант 1 — среднюю (4 часа).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Развертывание сетевого приложения с использованием контейнеризации",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются типом приложения, протоколом, БД и предметной областью. Содержание вариантов сильно сокращено по сравнению с мастер-заданием, отсутствуют некоторые обязательные требования.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 1 и 3 имеют среднюю и высокую сложность (16 часов), вариант 2 — высокую (12 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого приложения для передачи файлов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание технически корректно и четко структурировано. Незначительные недочеты в варианте 1 (сокращенное содержание)."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание детализировано, имеет четкую структуру и практическую направленность. Варианты хорошо проработаны."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание логично, охватывает ключевые аспекты балансировки нагрузки. Варианты соответствуют теме."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "План эксперимента четкий, методика измерений подробно описана. Варианты адаптированы под предметные области."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Развертывание сетевого приложения с использованием контейнеризации",
+          "Correctness": 4,
+          "Quality": 3,
+          "Completeness": 3,
+          "Clarity": 4,
+          "Justification": "Мастер-задание хорошее, но варианты сильно сокращены, отсутствуют ключевые требования (ограничения ресурсов, healthcheck)."
+        }
+      ]
+    },
+    {
+      "RunId": "test-024",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-024\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-024\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 24)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены ключевым аспектам компьютерных сетей: обработка пакетов, тестирование протоколов, оптимизация производительности, анализ TCP/UDP, контейнеризация и безопасность сетей.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая работа имеет уникальный тематический фокус: прототипирование, тестирование, оптимизация, эксперимент, интеграция и безопасность. Задания охватывают разные этапы жизненного цикла сетевых приложений.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базового прототипа к тестированию, оптимизации, экспериментальному анализу, интеграции и завершается вопросами безопасности. Это соответствует типичному учебному плану."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для обработки пакетов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (кинотеатр, больница, умный дом) и технологическим стеком (C++17, Python 3.10, Python 3.9). Только вариант 1 (кинотеатр) содержит глубокую адаптацию под домен, включая пример конфигурационного файла.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 2 и 3 имеют сложность 'high' (12 часов), а вариант 1 - 'medium' (8 часов). Варианты 2 и 3 являются почти точной копией мастер-задания, что может снижать сложность адаптации.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым протоколом (HTTP, FTP, SMTP), предметной областью и технологическим стеком. Вариант 1 (кинотеатр) представлен в сокращенном виде, варианты 2 и 3 более детализированы.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Оценка сложности у всех 'medium', но предполагаемое время разное: 12, 20 и 16 часов. Различия в технологическом стеке (Python, Go, Java) и объеме детализации влияют на фактическую сложность.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью и технологическим стеком (Python/FastAPI, Go/gRPC, Java/Spring Boot). Все варианты адаптируют общую тему балансировки нагрузки и кэширования под свой домен.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'high', но оценка часов разная: 8, 12, 8. Вариант 2 (больница) предполагает больше времени, возможно, из-за специфики медицинских данных.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "VariantsDiffer": false,
+          "VariantsDifferences": "Все три варианта идентичны мастер-заданию. Различия только в поле VariantParamsJson (предметная область и инструменты), но содержание заданий не адаптировано.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 имеет сложность 'high', а варианты 1 и 3 - 'medium', хотя содержание идентично. Это противоречие в оценке сложности.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Развертывание сетевого приложения в контейнерах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью, технологическим стеком (Python/TCP, Go/gRPC, Node.js/WebSocket) и протоколом взаимодействия. Вариант 1 содержит больше деталей реализации.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 имеет сложность 'high' (8 часов), вариан",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": []
+    },
+    {
+      "RunId": "test-025",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-025\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-025\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 25)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание по разработке прототипа анализатора сетевых пакетов соответствует теме компьютерных сетей и работе с сетевыми протоколами.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "В данном запуске сгенерирована только одна лабораторная работа, поэтому сравнение невозможно.",
+        "SequenceLogical": false,
+        "SequenceReason": "Только одна лабораторная работа, последовательность не применима."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа модуля обработки сетевых пакетов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, умный дом, медицинский центр) и рекомендуемым технологическим стеком (Python/Scapy, Go/InfluxDB, Java/Spring Boot).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется: вариант 1 - medium (20ч), вариант 2 - high (35ч), вариант 3 - high (20ч). Оценка часов противоречит заявленной сложности.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа модуля обработки сетевых пакетов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и четко структурировано. Содержит цель, постановку задачи, контракт ввода-вывода, требования, критерии оценки. Качество высокое, но вариации между вариантами минимальны в основном тексте."
+        }
+      ]
+    },
+    {
+      "RunId": "test-026",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-026\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-026\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 26)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания посвящены сетевым технологиям: разработка сетевого чата и тестирование сетевых протоколов, что соответствует дисциплине.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: первая - разработка прототипа, вторая - тестирование и отладка.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: сначала создание сетевого приложения, затем его тестирование и анализ протоколов."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого чата",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, кинотеатр, больница) и технологическим стеком (Python, Java, C#). Также различаются дополнительные требования: аутентификация, приватные сообщения, система уведомлений.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 3 имеет сложность 'high' и оценку в 8 часов, тогда как варианты 1 и 2 имеют сложность 'medium' и 6 часов.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, игровой сервер, склад) и технологическим стеком (Python, Java, C#). Вариант 1 содержит более детализированные требования и граничные случаи.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 имеет сложность 'high' и оценку в 8 часов, тогда как варианты 1 и 3 имеют сложность 'medium' и 4-6 часов.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого чата",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, структурировано и понятно. Имеет все необходимые разделы. Незначительные замечания от верификации (пропущенные детали реализации) снижают оценку качества до 4."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четкое и полное. Варианты 2 и 3 практически дублируют мастер-задание, что снижает качество вариативности. Вариант 1 более проработан."
+        }
+      ]
+    },
+    {
+      "RunId": "test-027",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-027\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-027\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 27)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены сетевым технологиям: передача файлов, тестирование протоколов, оптимизация сетевых приложений.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: разработка прототипа, тестирование протоколов, оптимизация производительности.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базового приложения к его тестированию и затем оптимизации производительности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинская визуализация, складской учет, метеорологический мониторинг), технологическим стеком и конкретными параметрами реализации (порт, путь сохранения, алгоритм хеширования).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется: вариант 1 - high (12 часов), вариант 2 - medium (6 часов), вариант 3 - medium (8 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым протоколом (HTTP/1.1, FTP, SMTP) и предметной областью применения (медицинские изображения, облачное хранилище, система билетов).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность неодинакова: вариант 1 - high, варианты 2 и 3 - medium, хотя оценка в часах одинакова (20 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинские изображения, онлайн-библиотека, онлайн-аукцион) и технологическим стеком. Вариант 2 дополнительно включает SQLite и hashlib.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Уровень сложности разный: вариант 1 - high (8 часов), вариант 2 - medium (8 часов), вариант 3 - high (12 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы: цель, постановку задачи, требования, критерии оценки. Формулировки ясные и полные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 4,
+          "Justification": "Задание хорошо проработано, но в вариантах есть несоответствия (например, заголовок о DICOM, а содержание об HTTP/1.1). Некоторые формулировки требуют большей конкретики."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа",
+          "Correctness": 0,
+          "Quality": 0,
+          "Completeness": 0,
+          "Clarity": 0,
+          "Justification": ""
+        }
+      ]
+    },
+    {
+      "RunId": "test-028",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-028\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-028\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 28)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все задания посвящены сетевым технологиям: сканирование портов, тестирование протоколов, оптимизация производительности, анализ TCP/UDP.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы охватывают разные этапы разработки: создание прототипа, тестирование, оптимизация, эксперимент.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа к тестированию, затем оптимизация и завершающий эксперимент с анализом."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого сканера портов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, умный дом, медицинское оборудование) и технологическим стеком.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 3 имеет сложность 'high', а варианты 1 и 2 - 'medium'. Оценка времени выполнения также различается.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптированы под разные предметные области (библиотека, склад, медицина) и используют различные протоколы (текстовый, MQTT).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 3 имеет сложность 'high', остальные 'medium'. Оценка времени одинакова, но сложность разная.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптированы под разные предметные области (библиотека, бронирование отелей, медицинская визуализация) и технологические стеки.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'high' и оценку времени выполнения 8 часов.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4. Анализ производительности сетевых протоколов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицина, умный дом, онлайн-трансляции) и детализацией задания (индивидуальные параметры).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 имеет оценку времени 12 часов, остальные 8 часов. Сложность у всех 'high', но объем работы разный.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого сканера портов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы: цель, постановку задачи, требования, критерии оценки. Формулировки ясные и полные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание логично и понятно, но верификация выявила недостаток тестов на безопасность и нагрузочное тестирование. В остальном полно и корректно."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание детально проработано, содержит конкретные требования, ограничения и критерии оценки. Все варианты прошли верификацию с высокими баллами."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4. Анализ производительности сетевых протоколов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание хорошо структурировано, включает план эксперимента, вариативность и четкие критерии оценки. Варианты адаптированы под разные области."
+        }
+      ]
+    },
+    {
+      "RunId": "test-029",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-029\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-029\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 29)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены темам компьютерных сетей: анализ пакетов, тестирование протоколов, оптимизация производительности, эксперименты с сетевыми протоколами и развертывание сетевых сервисов.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая работа имеет уникальный тематический фокус: разработка прототипа, тестирование, оптимизация, эксперимент и интеграция. Задания различаются по целям, методам и инструментам.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа к тестированию, затем оптимизации, анализу результатов и финальному развертыванию. Это соответствует этапам разработки и исследования сетевых приложений."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого модуля для обработки пакетов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотечная система, видеонаблюдение, медицинская информационная система) и технологическим стеком (Python, Java, C++). Также есть различия в детализации требований и граничных случаях.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 2 и 3 имеют оценку сложности 'high', а вариант 1 - 'medium', хотя estimated_hours у всех 8. Различия в технологическом стеке и предметной области могут влиять на воспринимаемую сложность.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются фокусом тестирования (контроль перегрузки, фрагментация пакетов, устойчивость к атакам), предметной областью и технологическим стеком (Python, Java, C++). Вариант 1 сокращен по сравнению с мастером.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'high' и одинаковое estimated_hours (8). Несмотря на различия в фокусе, общий объем работы сопоставим.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-библиотека, медицинский центр, игровой сервер) и технологическим стеком (Python, Java, C++). Вариант 1 детализирован для библиотеки, варианты 2 и 3 почти идентичны мастеру.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 1 имеет сложность 'medium' (8 часов), варианты 2 и 3 - 'high' (12 часов). Различия в оценке часов указывают на разный уровень сложности.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (видеонаблюдение, онлайн-игра, медицинский телемониторинг) и технологическим стеком (Python, Java, C++). Варианты адаптируют общую методику",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": []
+    },
+    {
+      "RunId": "test-030",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-030\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-030\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 30)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все задания посвящены ключевым аспектам компьютерных сетей: анализ пакетов, тестирование протоколов, балансировка нагрузки, производительность, контейнеризация и безопасность.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая работа имеет уникальный тематический фокус: прототипирование, тестирование, оптимизация, эксперимент, интеграция и безопасность.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от основ анализа трафика к тестированию, оптимизации, экспериментам, развертыванию и завершается вопросами безопасности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа модуля обработки сетевых пакетов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, образовательный портал, система видеонаблюдения), целевым протоколом/типом трафика (SYN-флуд, DNS, VoIP) и технологическим стеком (Python/Scapy, Go/gopacket, Python/Scapy/Matplotlib).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется от medium до high согласно оценке системы; варианты имеют разную трудоемкость (8-20 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (банковская система, онлайн-кинотеатр, умный дом), тестируемым протоколом (TCP, HTTP, ICMP) и технологическим стеком (Python/Scapy, Go/gopacket, Python/Scapy/Matplotlib).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется от medium до high; оценка трудоемкости разная (4-8 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (кинотеатр, больничная регистратура, умный дом) и технологическим стеком (Python/Scapy, Go/gopacket, Python/Scapy/Matplotlib).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется от medium до high; трудоемкость оценивается в 8 часов, но детали реализации различаются.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (система видеонаблюдения, умный дом, онлайн-игра) и технологическим стеком (Python/Scapy, Go/gopacket, Python/Scapy/Matplotlib).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется от medium до high; трудоемкость разная (8-12 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Развертывание сетевого приложения с использованием контейнеризации",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются типом приложения (чат, анализатор трафика, мониторинг), предметной областью и технологическим стеком (Python/Scapy, Go/gopacket/Graphviz, Python/Scapy/Matplotlib).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется от medium до high; трудоемкость оценивается в 8 часов, но задачи разного объема.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Анализ уязвимостей и проектирование защищённой сетевой инфраструктуры",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинский центр, логистический центр, банковское отделение), конкретными уязвимостями и технологическим стеком (Python/Scapy, Go/gopacket/Graphviz, Python/Scapy/Matplotlib).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Все варианты имеют высокую сложность, но трудоемкость разная (12-20 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа модуля обработки сетевых пакетов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и четко структурировано. Незначительные отклонения вариантов от мастер-требований (например, поддержка не всех протоколов) отмечены верификацией как low-проблемы."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно и понятно. Некоторые варианты не полностью покрывают требования по тестам безопасности, что отмечено верификацией. В целом полнота хорошая."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности сетевых приложений",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно и ясно. Варианты в основном повторяют мастер с небольшими дополнениями/уточнениями. Незначительные отклонения отмечены верификацией."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и четко. Варианты хорошо адаптируют мастер под конкретные предметные области и параметры. Верификация показала высокие оценки."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Развертывание сетевого приложения с использованием контейнеризации",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание корректно. Некоторые варианты имеют неполное описание тестов или ужесточают ограничения. В целом формулировки ясные, но есть мелкие недочеты."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Анализ уязвимостей и проектирование защищённой сетевой инфраструктуры",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно и четко. Варианты детально проработаны под конкретные отрасли. Недостаточная детализация бюджета и некоторых процедур отмечена верификацией."
+        }
+      ]
+    },
+    {
+      "RunId": "test-031",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-031\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-031\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 31)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание по разработке клиент-серверного приложения для передачи файлов с использованием TCP/IP соответствует теме компьютерных сетей.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Сгенерирована только одна лабораторная работа, сравнение невозможно.",
+        "SequenceLogical": true,
+        "SequenceReason": "Для одной работы последовательность тривиальна."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, кафе, автосервис) и технологическим стеком (Python, Java, C#). Только вариант 1 адаптировал содержание под контекст, варианты 2 и 3 почти идентичны мастер-заданию.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 3 оценивается в 8 часов, а варианты 1 и 2 — в 6 часов, что указывает на разную предполагаемую сложность.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Мастер-задание корректно, полно и ясно структурировано. Однако вариативность реализована не полностью: только вариант 1 глубоко адаптирован, остальные почти дублируют мастер."
+        }
+      ]
+    },
+    {
+      "RunId": "test-032",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-032\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-032\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 32)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания посвящены сетевым технологиям: разработка клиент-серверных приложений и тестирование сетевых протоколов, что соответствует дисциплине.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы различаются по тематике: первая — разработка прототипа сетевого приложения, вторая — тестирование и отладка сетевых протоколов.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: сначала создание приложения, затем его тестирование, что соответствует этапам разработки ПО."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, медицина, игровые сохранения) и технологическим стеком (Python, Go, Java).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют средний уровень сложности и оценку в 8 часов, что подтверждается профилями сложности.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым протоколом (HTTP/1.1, FTP, SMTP) и предметной областью (библиотека, медицина, игровые сохранения).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Два варианта имеют среднюю сложность, один — высокую, хотя оценка времени одинакова (16 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит цель, постановку задачи, требования, варианты сложности, критерии оценки и рекомендации. Формулировки ясные и полные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание логично и полно описывает процесс тестирования сетевых протоколов. Незначительные замечания от верификации (например, недостаток тестов на аутентификацию) не снижают общее качество."
+        }
+      ]
+    },
+    {
+      "RunId": "test-033",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-033\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-033\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 33)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены ключевым темам компьютерных сетей: разработка сетевых приложений, тестирование протоколов, оптимизация и масштабирование сетевых систем.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Работы имеют разные тематические фокусы: 1 - разработка прототипа, 2 - тестирование и отладка, 3 - оптимизация и масштабирование. Задачи и цели каждой работы уникальны.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базового приложения (прототип) через его тестирование к оптимизации производительности. Соответствует этапам разработки сетевого ПО."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Разработка прототипа сетевого приложения для передачи файлов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицина, образование, игровое сообщество), технологическим стеком и конкретными параметрами реализации (алгоритмы шифрования, хеш-функции, механизмы аутентификации).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Оценка сложности (complexity) везде 'high', но estimated_hours различаются: 8, 20 и 12 часов, что указывает на разный объем работы.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты сфокусированы на тестировании разных протоколов (ICMP, ARP, DHCP) и адаптированы под разные предметные области и технологические стеки.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'high', но estimated_hours различаются (10, 12, 12 часов), а также различается глубина проработки тестовых сценариев.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптированы под разные предметные области (медицина, образование, игры) и стеки технологий (Python, Node.js/React, Go). В варианте 2 изменен протокол взаимодействия на gRPC.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Оценки сложности: 'high', 'medium', 'high'. Estimated_hours: 20, 16, 18 часов. Вариант 2 имеет среднюю сложность, остальные высокую.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Разработка прототипа сетевого приложения для передачи файлов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и четко структурировано. Небольшое снижение качества из-за того, что вариант 2 почти полностью повторяет мастер-задание, не адаптируя его под заявленную предметную область и стек."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Формулировки ясные и корректные. Качество высокое, но в отчетах верификации отмечены недостатки в детализации стресс-тестов и граничных случаев. Полнота хорошая, но можно было бы детальнее описать метрики."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Оптимизация производительности сетевых приложений с использованием механизмов кэширования и балансировки нагрузки",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание четкое и корректное. Качество высокое, но в вариантах не всегда полностью отражена вариативность из мастер-задания (выбор алгоритмов, протоколов). Полнота хорошая, но в варианте 2 изменен протокол без явного указания на выбор из предложенных вариантов."
+        }
+      ]
+    },
+    {
+      "RunId": "test-034",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-034\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-034\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 34)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены сетевым приложениям, протоколам, тестированию, оптимизации и анализу производительности сетей, что соответствует дисциплине.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы охватывают различные этапы разработки сетевых приложений: создание прототипа, тестирование, оптимизацию и эксперимент.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность отражает типичный цикл разработки: создание, тестирование, оптимизация и анализ."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого приложения для передачи файлов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинские, образовательные, туристические учреждения) и технологическим стеком (Python, Java, C#).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Два варианта имеют высокую сложность, один - среднюю.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицина, образование, туризм, логистика), технологическим стеком и протоколом (HTTP, MQTT).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Один вариант имеет высокую сложность, остальные - среднюю.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности и отказоустойчивости сетевых приложений",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицина, образование, туризм) и технологическим стеком (Python, Java, C#).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Все варианты имеют высокую сложность, но разный объем работы (оценка часов: 8, 16, 8).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицина, образование, туризм), технологическим стеком и параметрами сетевого сценария.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Два варианта имеют высокую сложность, один - среднюю.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого приложения для передачи файлов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание хорошо структурировано, содержит все необходимые разделы, четко сформулированы цели, требования и критерии оценки."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Мастер-задание полное и ясное, но при генерации вариантов возникли проблемы с соответствием требованиям, что может указывать на возможные сложности в интерпретации."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности и отказоустойчивости сетевых приложений",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректное, полное, хорошо структурированное и понятное."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Анализ производительности сетевых протоколов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректное, полное, хорошо структурированное и понятное."
+        }
+      ]
+    },
+    {
+      "RunId": "test-035",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-035\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-035\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 35)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы соответствуют дисциплине 'Компьютерные сети', так как затрагивают темы сетевого программирования, протоколов, анализа трафика, балансировки нагрузки и развертывания сетевых приложений.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы отличаются тематическим фокусом: разработка прототипа, тестирование и отладка, оптимизация и масштабирование, эксперимент и анализ, интеграция и эксплуатация.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания простого клиент-серверного приложения к тестированию, затем оптимизации, экспериментальному анализу и развертыванию. Это соответствует поэтапному изучению дисциплины."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка прототипа сетевого приложения для передачи файлов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинские снимки, распределенные системы хранения, юридические документы) и технологическим стеком (Python/cryptography/pydicom, Go/libp2p/badgerDB, Java/Bouncy Castle/Apache Commons IO). Также в вариантах 1 и 3 указаны конкретные дополнительные функции (шифрование, аутентификация и т.д.), а в варианте 2 перечислены общие дополнительные функции.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты имеют разную оценку сложности: вариант 1 - 8 часов, вариант 2 - 12 часов, вариант 3 - 8 часов.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов в сетевых протоколах",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинские снимки, распределенные системы хранения, юридические документы) и технологическим стек",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": []
+    },
+    {
+      "RunId": "test-036",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-036\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-155558\\run-test-036\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 36)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены сетевым технологиям: протоколам, сокетам, тестированию, оптимизации, безопасности и развертыванию сетевых приложений.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Работы охватывают разные этапы жизненного цикла сетевого приложения: прототипирование, тестирование, оптимизация, эксперимент, интеграция и безопасность.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базового прототипа через тестирование и оптимизацию к анализу производительности, развертыванию и завершается вопросами безопасности."
+      },
+      "Labs": [],
+      "Quality": []
+    }
+  ]
+}

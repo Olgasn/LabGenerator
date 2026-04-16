@@ -1,0 +1,1737 @@
+{
+  "StartedAtUtc": "2026-04-05T15:57:43.520309+00:00",
+  "FinishedAtUtc": "2026-04-05T16:12:16.1341538+00:00",
+  "InputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823",
+  "OutputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\journal-analysis\\run-20260405-155743",
+  "CriteriaPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\Критерии оценки.txt",
+  "Results": [
+    {
+      "RunId": "test-003",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-003\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-003\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 3)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания посвящены разработке, тестированию и оптимизации сетевых приложений, что соответствует дисциплине \"Компьютерные сети\".",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: разработка прототипа, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базового приложения к его тестированию и последующей оптимизации производительности и надежности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, больница, онлайн-кинотеатр, склад, гостиница, фитнес-центр), что влияет на контекст и примеры в задании.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-библиотека, бронирование билетов, управление складом, онлайн-голосование, управление гостиницей, умный дом), что приводит к различиям в тестовых сценариях и фокусе тестирования.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин электроники, бронирование билетов, умный дом, онлайн-обучение, управление складом, видеонаблюдение), что влияет на специфику требований к оптимизации.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, структурировано, содержит четкие цели, требования, ограничения, граничные случаи и критерии оценки. Формулировки ясные и полные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, детально описывает цели, задачи, входные/выходные данные, требования к тестовым сценариям и критерии оценки. Формулировки четкие и полные."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, содержит четкую постановку задачи, функциональные и нефункциональные требования, ограничения, граничные случаи и критерии оценки. Формулировки ясные и полные."
+        }
+      ]
+    },
+    {
+      "RunId": "test-006",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-006\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-006\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 6)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Лабораторные работы соответствуют дисциплине 'Компьютерные сети', охватывая ключевые темы: разработка сетевых протоколов, тестирование сетевых взаимодействий, оптимизация производительности и отказоустойчивости.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: реализация протокола, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от разработки протокола к его тестированию и затем к оптимизации производительности и надежности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью применения протокола: библиотека, ресторан, склад, гостиница, учет личных финансов, управление задачами.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковый уровень сложности 'medium' и одинаковое estimated_hours (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью тестируемого протокола: библиотечный каталог, ресторанные заказы, складский инвентарь, бронирование гостиницы, учет личных финансов, управление задачами, расписание кинотеатра.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковый уровень сложности 'medium' и одинаковое estimated_hours (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 1
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью системы, требующей оптимизации: библиотечная сеть, ресторанная система, складская сеть, гостиничная система, учет личных финансов, управление задачами.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковый уровень сложности 'medium' и одинаковое estimated_hours (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы (цель, постановка задачи, контракт ввода-вывода, требования, критерии оценки). Формулировки ясны и соответствуют теме дисциплины."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает процесс тестирования сетевых протоколов, включает конкретные технические требования и граничные случаи. Формулировки ясны и профессиональны."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно описывает задачи оптимизации сетевой производительности и отказоустойчивости. Не указаны конкретные даты сроков сдачи, что снижает полноту."
+        }
+      ]
+    },
+    {
+      "RunId": "test-009",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-009\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-009\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 9)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания охватывают ключевые темы компьютерных сетей: разработку сетевых приложений, тестирование сетевого взаимодействия, оптимизацию производительности и отказоустойчивость.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: реализация прототипа, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базового приложения к его тестированию и далее к оптимизации производительности и надежности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются технологическим стеком (Python, C++, Java, Go, Node.js, Rust) и конкретной предметной областью приложения (чат, файловый менеджер, калькулятор, эхо-сервер, словарь, проверка доступности хостов).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'medium' и предполагаемое время выполнения 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются технологическим стеком для тестирования (Python/pytest, Java/JUnit, Node.js/Mocha, C#/NUnit, Go/Ginkgo, Ruby/RSpec) и детализацией тестовых сценариев.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'medium' и предполагаемое время выполнения 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются технологическим стеком (Python/FastAPI/Nginx, Java/Spring/RabbitMQ, Node.js/Redis, Go/gRPC/Consul, C#/.NET/Kafka, Kotlin/Ktor/Hazelcast) и конкретными архитектурными решениями для обеспечения отказоустойчивости.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'medium' и предполагаемое время выполнения 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и четко структурировано. Качество высокое, но некоторые варианты имеют незначительные отклонения от мастер-задания, отмеченные в отчетах верификации."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно и четко сформулировано. Качество и полнота высокие, но в отчетах верификации отмечены незначительные пробелы в детализации тестовых сценариев и метрик."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно и четко описывает цели. Качество и полнота высокие, но в отчетах верификации отмечены незначительные упущения в деталях реализации механизмов отказоустойчивости и проверки ограничений."
+        }
+      ]
+    },
+    {
+      "RunId": "test-012",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-012\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-012\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 12)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания посвящены разработке, тестированию и оптимизации сетевых протоколов и приложений, что соответствует тематике дисциплины.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: разработка протокола, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа к его тестированию и далее к оптимизации производительности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются технологическим стеком (Python, Go, Java, Rust, C++, Node.js) и конкретными акцентами в реализации (например, протокол маршрутизации, алгоритм выборочного повтора).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'medium' и предполагаемое время выполнения 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым протоколом/алгоритмом (UDP с CRC32, RIP-подобный протокол, TCP-подобный протокол, алгоритм Дейкстры, алгоритм Беллмана-Форда, базовая обработка пакетов) и технологическим стеком.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'medium' и предполагаемое время выполнения 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются технологическим стеком и спецификой оптимизируемого компонента (UDP-сервер, маршрутизация, TCP-сервер, алгоритмы Дейкстры/Беллмана-Форда, Selective Repeat ARQ).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'medium' и предполагаемое время выполнения 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы (цель, постановка задачи, контракт ввода-вывода, требования). Формулировки ясны и соответствуют теме. Варианты прошли верификацию с высокими баллами."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание хорошо структурировано и понятно. Некоторые варианты имеют незначительные недостатки в полноте (отсутствие деталей по тестированию граничных случаев или документации), отмеченные в отчетах верификации."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание ясно формулирует цель и требования. Некоторые варианты имеют незначительные отклонения от мастер-задания или пропущенные детали (например, поддержка состояния сессии), но в целом качество высокое."
+        }
+      ]
+    },
+    {
+      "RunId": "test-018",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-018\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-018\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 18)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены темам компьютерных сетей: сетевое программирование, тестирование протоколов, оптимизация, анализ трафика, контейнеризация и безопасность сетей.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая работа имеет уникальный тематический фокус: разработка прототипа, тестирование, оптимизация, эксперимент, интеграция и безопасность, что соответствует их названиям и описаниям.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от базового сетевого программирования к тестированию, оптимизации, анализу, развертыванию и завершается вопросами безопасности, что соответствует прогрессивному изучению дисциплины."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, больница, кинотеатр, склад, онлайн-игра, таксопарк) и деталями в требованиях (например, конкретные коды операций, форматы данных, таймауты).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов), что подтверждается DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым протоколом (DNS, MQTT, FTP, SSH, SIP, DHCP) и предметной областью (интернет-магазин, умный дом, файловое хранилище и т.д.), с разными инструментами и сценариями тестирования.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-кинотеатр, доставка еды, склад, отель, библиотека, управление задачами) и технологическим стеком, с разной детализацией требований к балансировке нагрузки и кешированию.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, видеонаблюдение, онлайн-библиотека, умный дом, онлайн-игра, телемедицина) и используемыми инструментами для анализа сетевого трафика.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (чат, склад, кинотеатр, библиотека, гостиница, фитнес-центр) и технологическим стеком, с разной детализацией требований к Docker и функционалу приложения.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (медицинский центр, логистический центр, образовательное учреждение, фитнес-центр, банкоматы, гостиничный комплекс) и используемым сетевым оборудованием/ПО.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, включает цель, постановку задачи, контракт ввода/вывода, требования к реализации, ограничения, граничные случаи, критерии оценки и отчетность. Формулировки ясные и полные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание хорошо проработано: определены цель, задачи, входные/выходные данные, требования к реализации, ограничения, граничные случаи и критерии оценки. Структура логична и понятна."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает цель, постановку задачи, контракт ввода-вывода, обязательные компоненты (балансировка, отказоустойчивость, кеширование), ограничения, граничные случаи, критерии оценки и сроки."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет цель, постановку задачи, входные/выходные данные, обязательные элементы (план эксперимента, стенд, измерения, анализ, отчет), ограничения и граничные случаи."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание подробно описывает цель, постановку задачи, контракт ввода-вывода, обязательные компоненты (приложение, Docker, оркестрация), ограничения, граничные случаи, требования к документации и критерии оценки."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание комплексно охватывает цель, постановку задачи, входные/выходные данные, обязательные элементы (анализ угроз, меры защиты, отказоустойчивость), технические ограничения, граничные случаи и критерии оценки."
+        }
+      ]
+    },
+    {
+      "RunId": "test-024",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-024\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-024\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 24)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все задания посвящены сетевым технологиям: разработке протоколов, тестированию, оптимизации, анализу трафика, контейнеризации и безопасности сетей.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы охватывают разные этапы жизненного цикла сетевого приложения: разработка прототипа, тестирование, оптимизация, анализ производительности, развертывание и безопасность.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от разработки базового протокола к тестированию, оптимизации, анализу, развертыванию и завершается вопросами безопасности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (склад, библиотека, авиабилеты и т.д.) и технологическим стеком (Python, Java, C#, Go, Node.js, Rust).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются предметной областью и инструментами тестирования (pytest, Jest, JUnit, xUnit, Go testing, Kotest).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты оцениваются как medium с одинаковым временем выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью и технологическим стеком (Node.js, Python, Java, Go, C#, Ruby).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность medium и оценку в 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются предметной областью и инструментами анализа трафика (Wireshark, tcpdump, JMeter, NetFlow, k6, ELK Stack).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую сложность (medium) и время выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью, технологическим стеком и деталями реализации Docker (FastAPI, Node.js, Go, Java, C#, Rust, Flask).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты оцениваются как medium с временем выполнения 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 1
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются предметной областью и используемыми системами защиты (Cisco, pfSense, FortiGate, OPNsense, Juniper SRX, Palo Alto).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность medium и оценку в 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит конкретные требования к формату сообщений, командам, обработке ошибок и критериям оценки. Варианты хорошо адаптированы к предметным областям."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание охватывает модульное, интеграционное и нагрузочное тестирование, но некоторые варианты имеют незначительные отклонения от мастер-задания (например, снижение покрытия кода)."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание хорошо описывает компоненты балансировки, отказоустойчивости и кэширования, но в некоторых вариантах отсутствуют конкретные метрики нагрузочного тестирования."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание четко определяет этапы эксперимента, но некоторые варианты недостаточно детализируют анализ граничных случаев или сравнение с теоретическими моделями."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "Correctness": 3,
+          "Quality": 3,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание охватывает все аспекты контейнеризации, но вариант 1 имеет серьезные проблемы (отсутствие многоэтапной сборки, некорректный healthcheck), что снижает общую оценку."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание хорошо структурировано, но многие варианты не предоставляют полную матрицу рисков или детали плана аварийного восстановления, как требуется в мастер-задании."
+        }
+      ]
+    },
+    {
+      "RunId": "test-030",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-030\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-030\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 30)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены темам компьютерных сетей: разработка сетевых приложений, тестирование протоколов, оптимизация производительности, анализ трафика, контейнеризация и безопасность сетей.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая работа имеет уникальный тематический фокус: прототипирование, тестирование, оптимизация, эксперимент, интеграция и безопасность, что соответствует разным этапам разработки и эксплуатации сетевых систем.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от базового прототипирования клиент-серверных приложений через тестирование и оптимизацию к анализу, развертыванию и безопасности, что соответствует естественному учебному процессу."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, больница, кинотеатр и др.) и технологическим стеком (Python, Java, C++, C#, Go, Node.js).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов), что подтверждается DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-библиотека, склад, онлайн-игра и др.) и технологическим стеком (Python, Java, C++, C#, Go, Node.js).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, чат, игра и др.) и технологическим стеком (Python, Java, C++, C#, Go, Node.js).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-библиотека, голосование, склад и др.) и технологическим стеком (Python, Java, C++, C#, Go, Node.js).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности medium, большинство оценивается в 6 часов, один вариант в 5 часов, что указывает на схожий уровень.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, ресторан, кинотеатр и др.) и технологическим стеком (Python, Java, C++, C#, Go, Node.js).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, медицинский центр, онлайн-библиотека и др.) и технологическим стеком (Python, Java, C++, C#, Go, Node.js).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы (цель, постановка задачи, контракт ввода-вывода, требования). Формулировки ясные и полные, варианты хорошо адаптированы к разным предметным областям."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно отражает тему тестирования сетевых протоколов. Структура полная, включает план эксперимента, требования к реализации и критерии оценки. Варианты сохраняют основную структуру, адаптируясь к разным областям."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет цели оптимизации производительности и отказоустойчивости. Структура полная, включает контракт ввода-вывода, требования к балансировке и кешированию. Варианты логично адаптированы."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно описывает процесс планирования и проведения сетевых экспериментов. Некоторые варианты (например, для онлайн-библиотеки) менее детализированы в части граничных случаев и статистического анализа, но в целом структура сохранена."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет цели контейнеризации и развертывания. Некоторые варианты имеют неполную документацию или отсутствие healthcheck в docker-compose, но основные требования к Dockerfile и сетевой настройке выполнены."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает анализ уязвимостей и проектирование защищенной инфраструктуры. Структура включает карту рисков, механизмы защиты и критерии оценки. Варианты хорошо адаптированы к разным предметным областям."
+        }
+      ]
+    },
+    {
+      "RunId": "test-036",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-036\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-036\\journal.md",
+      "Discipline": {
+        "Name": "Компьютерные сети (Test 36)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены ключевым темам компьютерных сетей: разработка сетевых приложений, тестирование протоколов, оптимизация производительности, анализ трафика, контейнеризация и безопасность сетей.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая работа имеет уникальный тематический фокус: прототипирование, тестирование, оптимизация, эксперимент, интеграция и безопасность. Задания различаются по целям, задачам и требуемым действиям.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от базового прототипирования и тестирования к оптимизации, анализу, развертыванию и завершается вопросами безопасности. Это соответствует типичному учебному плану."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, склад, онлайн-кинотеатр и т.д.) и технологическим стеком (Python, Java, C++, C#, Go, Node.js). Основное содержание задания идентично.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов). Задачи структурно эквивалентны, различия в домене и стеке не влияют на общую сложность.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптированы под разные предметные области (библиотека, склад и т.д.) и стеки технологий. Детали тестовых сценариев и инструментов различаются в соответствии с доменом.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты оцениваются как medium с одинаковым временем выполнения (6 часов). Структура и объем требований (тест-план, сценарии, документация) сопоставимы.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются по предметной области и технологическому стеку. Некоторые варианты (например, для фитнес-центра) содержат дополнительные детали, но основная структура задания сохранена.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность medium и оценку в 6 часов. Дополнительные детали в некоторых вариантах незначительно влияют на общий уровень сложности.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптированы под конкретные домены (библиотека, фитнес-центр и т.д.) с уточнением тестовых сценариев и метрик. Некоторые содержат больше деталей, чем мастер-задание.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Одинаковая оценка сложности (medium) и времени (6 часов). Различия в детализации не меняют общую трудоемкость выполнения эксперимента и анализа.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты значительно различаются по реализации: разные предметные области, конкретные функциональные требования, примеры команд и архитектурные решения. Степень детализации варьируется.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность medium и оценку в 6 часов. Хотя детали различаются, общие задачи (разработка, контейнеризация, сетевая настройка, тестирование) остаются сопоставимыми по сложности.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптированы под различные предметные области с уточнением входных данных и, в некоторых случаях, добавлением практических заданий по программированию. Детали анализа и предлагаемых мер различаются.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Одинаковая сложность (medium) и время выполнения (6 часов). Добавление практических элементов в некоторых вариантах компенсируется более узкой специализацией, сохраняя общий баланс.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, четко структурировано, содержит все необходимые разделы (цель, постановка задачи, требования, критерии). Формулировки ясные и полные. Варианты соответствуют мастер-заданию, различия минимальны и логичны."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно и полно описывает процесс тестирования сетевых протоколов. Качество высокое, но отчеты верификации указывают на незначительные недостатки в детализации (например, параметры нагрузочного тестирования). Формулировки четкие."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно охватывает темы кэширования и балансировки нагрузки. Структура полная и ясная. Варианты в основном соответствуют мастер-заданию, некоторые содержат полезные дополнения, не нарушающие общих требований."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно определяет этапы планирования и проведения сетевого эксперимента. Полнота и ясность высокие. Качество немного снижено из-за некоторых расхождений в деталях между вариантами, отмеченных при верификации."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно описывает процесс контейнеризации сетевого приложения. Качество и полнота хорошие, но отчеты верификации указывают на отсутствие некоторых деталей (например, ротация логов) в отдельных вариантах. Формулировки ясные."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно охватывает анализ уязвимостей и проектирование защиты. Полнота и ясность высокие. Качество немного снижено из-за отклонений в некоторых вариантах (добавление практических заданий, изменение сроков), но общая структура сохранена."
+        }
+      ]
+    },
+    {
+      "RunId": "test-039",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-039\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-039\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 39)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания охватывают ключевые темы дисциплины: разработку прототипов, тестирование, оптимизацию и отказоустойчивость в ООП.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: реализация прототипа, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа к его тестированию и далее к оптимизации производительности и надежности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, кинотеатр, IT-команда, фитнес-центр, гостиничный комплекс, автосалон), что влияет на конкретные сущности и бизнес-правила.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым классом и предметной областью (управление библиотекой, кинотеатром, складом, фитнес-клубом, гостиницей, автосалоном, рестораном), что приводит к разным исходным кодам и тестовым сценариям.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 1
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью системы, подлежащей оптимизации (библиотека, кинотеатр, склад, больница, таксопарк, гостиница), что влияет на специфические требования к производительности и отказоустойчивости.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы (цель, постановка задачи, требования, критерии оценки). Формулировки ясны и соответствуют теме ООП. Все варианты прошли верификацию с высокими баллами."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание хорошо структурировано и понятно, но некоторые варианты (например, вариант 1) имеют проблемы с полнотой тестовых требований, что отражено в отчетах верификации. Большинство вариантов прошли проверку."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно и четко описывает требования к оптимизации и отказоустойчивости. Все варианты адаптированы к предметным областям и прошли верификацию с высокими баллами, демонстрируя хорошее качество формулировок."
+        }
+      ]
+    },
+    {
+      "RunId": "test-042",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-042\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-042\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 42)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания охватывают ключевые темы дисциплины: проектирование ООП-систем, тестирование, отладку, оптимизацию производительности и применение паттернов проектирования.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: реализация прототипа, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа к его тестированию и отладке, затем к оптимизации производительности и масштабированию."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью системы управления складом: бытовая техника, строительные материалы, спортивный инвентарь, книжный магазин, автозапчасти, музыкальные инструменты.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью тестируемого класса: управление бытовой техникой, учет строительных материалов, учет спортивного инвентаря, управление книжным магазином, учет автозапчастей, учет музыкальных инструментов.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью оптимизируемой системы: учет бытовой техники, строительных материалов, спортивного инвентаря, книжного магазина, автозапчастей, музыкальных инструментов.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит цель, постановку задачи, контракт ввода/вывода, детальные требования к реализации, ограничения, граничные случаи и критерии оценки. Формулировки ясны и полны."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает процесс тестирования: анализ требований, проектирование тестов, реализацию, поиск дефектов, анализ покрытия, логирование. Структура логична, требования конкретны."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание комплексно охватывает оптимизацию производительности и обеспечение устойчивости системы. Четко определены обязательные компоненты, ограничения, граничные случаи и критерии оценки."
+        }
+      ]
+    },
+    {
+      "RunId": "test-045",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-045\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-045\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 45)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания охватывают ключевые темы дисциплины: проектирование иерархий классов, паттерны проектирования, тестирование, оптимизацию и отказоустойчивость.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: реализация прототипа, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа через его тестирование к оптимизации и обеспечению отказоустойчивости."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются алгоритмическими требованиями: хеширование, стек операций, древовидная структура, двусвязный список, кольцевой буфер, приоритетная очередь. Это влияет на структуру данных для хранения объектов.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'medium' и предполагаемое время выполнения 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым классом и алгоритмическими требованиями: бинарный поиск, хеш-таблица, стек, бинарное дерево поиска, граф с BFS, граф с алгоритмом Дейкстры.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'medium' и предполагаемое время выполнения 6 часов.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются алгоритмическими требованиями: хеширование, бинарный поиск, деревья и стек, очередь и пул потоков, графы и BFS, куча и приоритетная очередь. Это влияет на структуры данных для обработки.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют оценку сложности 'medium', предполагаемое время выполнения 5-6 часов, и схожие нефункциональные требования к производительности.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит цель, постановку задачи, контракт ввода-вывода, детальные требования к реализации, ограничения, граничные случаи и критерии оценки. Варианты хорошо дифференцированы и содержат примеры кода."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает процесс тестирования: анализ требований, проектирование тестов, реализацию, анализ результатов и документирование. Варианты четко определяют тестируемые классы и предоставляют примеры тестовых сценариев."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание комплексно охватывает оптимизацию производительности и отказоустойчивость, включая функциональные и нефункциональные требования, граничные случаи и критерии оценки. Варианты адаптируют общую тему к разным алгоритмическим подходам."
+        }
+      ]
+    },
+    {
+      "RunId": "test-048",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-048\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-048\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 48)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания охватывают ключевые темы дисциплины: ООП принципы, проектирование, тестирование, оптимизацию и масштабирование.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: реализация прототипа, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа к его тестированию и далее к оптимизации и масштабированию."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются алгоритмическими требованиями: линейный поиск, хеширование, бинарный поиск, стек, очередь, двусвязный список.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемыми структурами данных и алгоритмами: линейный поиск, хеш-таблица, бинарный поиск, стек, очередь, двусвязный список.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются алгоритмическими подходами в системах кэширования: линейный поиск, хеширование, бинарный поиск, стек, очередь, двусвязный список.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Большинство вариантов имеют одинаковую сложность (medium) и время выполнения (6 часов), два варианта имеют 5 часов, что незначительно отличается.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко сформулировано, содержит полные требования, примеры кода и критерии оценки. Варианты хорошо структурированы и детализированы."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает цели, задачи, требования к тестам и отчетности. Варианты содержат конкретные примеры кода и тестовые сценарии."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет функциональные и нефункциональные требования, ограничения и критерии оценки. Варианты хорошо проработаны и содержат примеры реализации."
+        }
+      ]
+    },
+    {
+      "RunId": "test-054",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-054\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-054\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 54)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все задания посвящены объектно-ориентированному проектированию и программированию, охватывая ключевые аспекты дисциплины: реализацию прототипов, тестирование, оптимизацию, эксперименты, интеграцию и безопасность.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая лабораторная работа имеет уникальную тематическую направленность: реализация прототипа, тестирование и отладка, оптимизация и масштабирование, эксперимент и анализ, интеграция и эксплуатация, безопасность и надежность.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: начинается с создания прототипа, затем тестирование, оптимизация, анализ результатов, интеграция и завершается вопросами безопасности и надежности, что соответствует типичному жизненному циклу разработки ПО."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, управление персоналом, склад, зоопарк, кинотеатр, фитнес-клуб) и алгоритмическими требованиями (хеширование, бинарный поиск, дерево, двусвязный список, линейный поиск, сортировка пузырьком).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов), что подтверждается DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, больница, кинотеатр, игра, банк, отель, таксопарк) и алгоритмическими требованиями (хеширование, бинарный поиск, стек, дерево, очередь, сортировка слиянием, граф).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 1
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (склад, банк, гостиница, библиотека, таксопарк, кинотеатр) и алгоритмическими требованиями (хеширование, приоритетная очередь, бинарный поиск, стек, очередь, двусвязный список).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, склад, транспортная сеть, система управления задачами, игровая система, графический редактор) и сравниваемыми алгоритмами (поиск, сортировка, обход графа, очереди, деревья, обработка изображений).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, больница, библиотека, игровые персонажи, логистика, склад) и алгоритмическими требованиями (хеширование, бинарный поиск, стек, графы, очередь, двусвязный список).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (интернет-магазин, банковская система, библиотечная система, система такси, система онлайн-образования, логистическая система) и алгоритмическими требованиями (хеширование, бинарный поиск, стек, очередь с приоритетами, дерево решений, графовые алгоритмы).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит цель, постановку задачи, контракт ввода/вывода, подробные требования к реализации, ограничения, граничные случаи и критерии оценки. Все варианты хорошо адаптированы к предметным областям."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание корректно, но вариант 1 (библиотека) не прошел верификацию из-за недостаточного количества тестов и отсутствия документации по дефектам. Остальные варианты полные и понятные, но некоторые имеют незначительные недостатки в детализации."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полностью соответствует мастер-версии, все варианты успешно прошли верификацию. Формулировки четкие, требования детализированы, включая функциональные и нефункциональные аспекты, граничные случаи и критерии оценки."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно и ясно формулирует цель сравнения алгоритмов. Некоторые варианты имеют незначительные отклонения от мастер-задания (например, отсутствие анализа использования памяти), но в целом задания полные и понятные."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задания корректны и ясны, успешно прошли верификацию. Некоторые варианты имеют незначительные недостатки в детализации требований (например, отсутствие указания версии языка), но в целом соответствуют мастер-заданию."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Все варианты успешно прошли верификацию после повторной проверки. Задания четко структурированы, полностью соответствуют мастер-версии, детально описывают требования к анализу рисков и обеспечению устойчивости систем."
+        }
+      ]
+    },
+    {
+      "RunId": "test-060",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-060\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-060\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 60)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания охватывают ключевые темы ООП: проектирование классов, тестирование, оптимизацию, планирование экспериментов, интеграцию и безопасность.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Каждая лабораторная работа имеет уникальный тематический фокус: прототипирование, тестирование, оптимизация, эксперимент, интеграция, безопасность.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа через тестирование и оптимизацию к планированию экспериментов, интеграции и обеспечению безопасности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, учет сотрудников, кинопрокат и т.д.) и алгоритмическими требованиями (хеширование, линейный поиск, бинарный поиск и др.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются тестируемым классом (библиотека, учет сотрудников и т.д.) и алгоритмическими структурами (хеш-таблица, бинарное дерево, стек и др.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую сложность (medium) и время выполнения (6 часов), требования к покрытию тестами схожи.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью и алгоритмическими подходами (хеширование, деревья, стеки, очереди, графы, сортировка слиянием).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты оцениваются как medium с одинаковым временем выполнения (6 часов), требуют схожих усилий по оптимизации.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются предметной областью для эксперимента (библиотека, учет сотрудников и т.д.) и алгоритмическими методами (хеширование, линейный/бинарный поиск, деревья решений и др.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность medium и время выполнения 6 часов, требования к планированию и анализу экспериментов сопоставимы.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью и алгоритмическими компонентами (хеширование, бинарный поиск, линейный поиск, стек, дерево, сортировка слиянием).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность medium и время выполнения 6 часов, требования к интеграции и подготовке к эксплуатации схожи.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются предметной областью и алгоритмическими аспектами (хеширование, линейный поиск, бинарные деревья, стеки, графы).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты оцениваются как medium с временем выполнения 6 часов, требования к реализации механизмов безопасности сопоставимы.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит конкретные требования к функционалу, коду, ограничениям и критериям оценки. Варианты детализированы и соответствуют мастер-заданию."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает цели, входные/выходные данные, требования к тестам и критерии оценки. Варианты предоставляют конкретные классы для тестирования и тестовые сценарии."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет цели оптимизации, требования к реализации и метрики производительности. Варианты адаптируют эти требования к разным предметным областям."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание хорошо структурировано, охватывает все этапы планирования эксперимента, анализа результатов и визуализации. Варианты последовательно применяют эту структуру."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание подробно описывает требования к конфигурации, логированию, обработке ошибок и сборке. Варианты конкретизируют эти требования для разных систем."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко формулирует цели анализа рисков, требования к защитным механизмам и обработке ошибок. Варианты применяют эти принципы к различным предметным областям."
+        }
+      ]
+    },
+    {
+      "RunId": "test-066",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-066\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-066\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 66)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все задания посвящены разработке программных систем с использованием принципов ООП, включая наследование, инкапсуляцию, полиморфизм и шаблоны проектирования.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы охватывают разные этапы жизненного цикла ПО: прототипирование, тестирование, оптимизацию, эксперимент, интеграцию и безопасность.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа и тестирования к оптимизации, анализу, интеграции и завершается вопросами безопасности."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (зоопарк, склад, кинотеатр и др.) и алгоритмическим требованием (хеширование, дерево, стек и др.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'medium' и оценку в 6 часов, требования к реализации ООП принципов одинаковы.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемым классом (хеш-таблица, дерево, стек и др.) и предметной областью (библиотека, управление персоналом и др.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'medium', оценку в 6 часов и одинаковые требования к количеству тестов и покрытию кода.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (склад, управление задачами, ресторан и др.) и алгоритмическим требованием (хеширование, дерево, стек и др.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'medium', оценку в 6 часов и схожие требования к шаблонам проектирования и обработке исключений.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, генеалогическое древо, кинотеатр и др.), но содержание заданий практически идентично мастер-версии.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'medium', оценку в 6 часов и одинаковые требования к реализации классов планирования эксперимента и отчетности.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, кинотеатр, больница и др.) и алгоритмическим требованием (хеширование, дерево, стек и др.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'medium', оценку в 6 часов и схожие требования к реализации системы конфигурации и паттернам проектирования.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (онлайн-магазин, больница, банк и др.) и алгоритмическим требованием (хеширование, дерево, стек и др.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют сложность 'medium', оценку в 6 часов и одинаковые требования к реализации шаблонов проектирования и обработке исключений.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы (цель, постановка задачи, требования). Варианты хорошо дифференцированы по предметным областям с сохранением общих требований к ООП."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает процесс тестирования, требования к тестовым сценариям и отчетности. Варианты адаптируют общую структуру к конкретным классам и предметным областям."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет цели оптимизации и отказоустойчивости, требует применения шаблонов проектирования. Варианты последовательно применяют алгоритмические требования к разным предметным областям."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание логично структурировано, но варианты практически дословно повторяют мастер-задание без существенной адаптации к заявленным предметным областям."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет требования к системе конфигурации, паттернам проектирования и обработке ошибок. Варианты хорошо адаптированы к разным предметным областям."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно охватывает анализ рисков, механизмы защиты и мониторинг. Варианты эффективно адаптируют общую структуру к конкретным предметным областям с сохранением требований к ООП."
+        }
+      ]
+    },
+    {
+      "RunId": "test-072",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-072\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\test-plan\\run-20260402-101823\\run-test-072\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 72)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все задания фокусируются на принципах ООП (наследование, инкапсуляция, полиморфизм), паттернах проектирования и SOLID, что соответствует дисциплине.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы охватывают разные этапы разработки ПО: прототипирование, тестирование, оптимизацию, эксперимент, интеграцию и безопасность, что обеспечивает уникальность каждой работы.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания прототипа и тестирования к оптимизации, анализу, интеграции и обеспечению безопасности, что соответствует типичному жизненному циклу разработки ПО."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, управление персоналом, гостиница и др.) и алгоритмическими требованиями (хеширование, обход дерева, индексированный поиск и т.д.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов), что подтверждается DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптируют общую тему тестирования к конкретным предметным областям (библиотека, управление персоналом и др.) с сохранением алгоритмических особенностей (хеширование, обход дерева и т.д.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты применяют общие принципы оптимизации (кэширование, пул потоков) к разным предметным областям, сохраняя специфичные алгоритмические требования (например, графы для зоопарка).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптируют общую структуру эксперимента к разным предметным областям, сохраняя базовые компоненты (Experiment, ParameterSet) и добавляя доменные особенности.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты применяют архитектуру с плагинами к разным предметным областям, сохраняя общие требования к ядру системы и интерфейсам плагинов, но с доменной спецификой.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптируют общие принципы отказоустойчивости и обработки ошибок к разным предметным областям, сохраняя базовые требования к мониторингу и восстановлению.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов) в DifficultyProfileJson.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы (цель, постановка задачи, требования, критерии оценки). Формулировки ясные и конкретные. Варианты хорошо дифференцированы по предметным областям и алгоритмам."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно описывает создание тестового фреймворка, включает конкретные требования к компонентам и примеры кода. Варианты последовательно адаптируют общую тему к доменам, сохраняя ясность изложения."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко определяет цели оптимизации и отказоустойчивости, содержит конкретные технические требования и ограничения. Варианты логично применяют общие принципы к разным доменам."
+        },
+        {
+          "LabNumber": 4,
+          "AssignmentTitle": "Лабораторная работа 4: Эксперимент и анализ результатов",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание хорошо структурировано, определяет компоненты системы эксперимента и интерфейсы. Варианты сохраняют общую структуру, добавляя доменный контекст без потери ясности."
+        },
+        {
+          "LabNumber": 5,
+          "AssignmentTitle": "Лабораторная работа 5: Интеграция и эксплуатация",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание детально описывает архитектуру с плагинами, включая конкретные требования к ядру, интерфейсам и обработке ошибок. Варианты последовательно адаптируют схему к разным предметным областям."
+        },
+        {
+          "LabNumber": 6,
+          "AssignmentTitle": "Лабораторная работа 6: Безопасность и надежность",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно охватывает аспекты анализа рисков, обработки ошибок и восстановления, содержит конкретные нефункциональные требования. Варианты адаптируют общие принципы к доменам, сохраняя четкость формулировок."
+        }
+      ]
+    }
+  ]
+}

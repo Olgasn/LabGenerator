@@ -1,0 +1,47 @@
+{
+  "StartedAtUtc": "2026-04-05T07:57:06.6036174+00:00",
+  "FinishedAtUtc": "2026-04-05T07:57:31.340917+00:00",
+  "InputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260405-073701\\gpt-oss_120b-cloud\\run-20260405-074819",
+  "OutputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260405-073701\\analysis\\gpt-oss_120b-cloud\\run-20260405-075706",
+  "CriteriaPath": null,
+  "Results": [
+    {
+      "RunId": "test-072",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260405-073701\\gpt-oss_120b-cloud\\run-20260405-074819\\run-test-072\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260405-073701\\gpt-oss_120b-cloud\\run-20260405-074819\\run-test-072\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 72)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания лабораторных работ соответствуют дисциплине, так как фокусируются на объектно-ориентированном проектировании, принципах ООП и создании прототипов систем.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "В журнале указана только одна лабораторная работа, поэтому сравнивать различия между несколькими работами невозможно.",
+        "SequenceLogical": true,
+        "SequenceReason": "Лабораторная работа 1 логично начинает курс с создания базового прототипа, что является фундаментом для последующих работ."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, геометрические фигуры, кинотеатр и др.) и алгоритмическими требованиями (хеш-таблица, дерево, бинарный поиск и т.д.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов), что обеспечивает равную нагрузку.",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, структурировано и полностью соответствует дисциплине. Все варианты прошли верификацию с высокими баллами, имеют четкие требования и критерии оценки."
+        }
+      ]
+    }
+  ]
+}

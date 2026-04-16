@@ -1,0 +1,657 @@
+{
+  "StartedAtUtc": "2026-03-19T13:04:54.7569677+00:00",
+  "FinishedAtUtc": "2026-03-19T13:20:09.02315+00:00",
+  "InputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845",
+  "OutputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\journal-analysis\\run-20260319-130454",
+  "CriteriaPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\Критерии оценки.txt",
+  "Results": [
+    {
+      "RunId": "test-037",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-037\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-037\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 37)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание на разработку системы управления складом соответствует дисциплине, так как требует применения принципов ООП, проектирования классов и реализации прототипа.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Только одна лабораторная работа, сравнение невозможно.",
+        "SequenceLogical": true,
+        "SequenceReason": "Только одна лабораторная работа, последовательность тривиальна."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью: вариант 1 - склад электроники/канцтоваров/продуктов; вариант 2 - спортивный инвентарь; вариант 3 - одежда/обувь/аксессуары. Также отличаются конкретные категории товаров и дополнительные функции.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты имеют разную сложность: два варианта оценены как 'high' (20 и 25 часов), один как 'medium' (20 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно, структурировано и понятно. Есть мелкие недочеты, отмеченные при верификации, но в целом задание полное и ясное."
+        }
+      ]
+    },
+    {
+      "RunId": "test-038",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-038\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-038\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 38)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания соответствуют дисциплине: первая работа посвящена проектированию ООП-системы, вторая - тестированию и отладке, что охватывает ключевые аспекты ООП.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы отличаются: первая фокусируется на проектировании и реализации системы, вторая - на тестировании и отладке.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: сначала создание системы, затем её тестирование и отладка, что соответствует этапам разработки ПО."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью: аптека, прокат музыкальных инструментов, кинотеатр. Это приводит к разным классам, атрибутам и бизнес-правилам.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность различается: два варианта оцениваются в 8 часов (medium), третий - в 6 часов (medium), что указывает на небольшой дисбаланс.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью применения матричных операций: геометрические преобразования, финансовые расчеты, криптография. Первый вариант содержит исправленный код и дополнительные требования.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Существенный дисбаланс: два варианта имеют сложность medium (8 часов), третий - high (25 часов) из-за криптографической тематики.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и четко структурировано. Имеет все необходимые разделы: цель, постановка задачи, требования к реализации, критерии оценки. Качество высокое, но вариативность могла бы быть более глубокой."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 4,
+          "Quality": 3,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно и четко сформулировано, но качество вариативности среднее: два варианта почти дословно повторяют мастер-задание. Полнота хорошая, но в первом варианте отсутствует реализация определителя для матриц 3x3."
+        }
+      ]
+    },
+    {
+      "RunId": "test-039",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-039\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-039\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 39)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы фокусируются на ключевых аспектах ООП: проектирование классов, наследование, полиморфизм, инкапсуляция, шаблоны проектирования, тестирование и оптимизация.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы охватывают разные этапы разработки ПО: создание прототипа (ЛР1), тестирование и отладка (ЛР2), оптимизация производительности (ЛР3).",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базовой системы к её тестированию и последующей оптимизации, что соответствует этапам изучения дисциплины."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (аптека, книжный магазин, строительные материалы), что влечёт за собой разные классы, атрибуты, бизнес-правила и граничные случаи.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Два варианта имеют сложность 'medium' (8 часов), а третий — 'high' (16 часов). Вариант со строительными материалами требует учёта единиц измерения, совместимости и интеграции с CAD, что повышает сложность.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются заявленной предметной областью (банковская система, складская логистика, гостиничный бизнес), однако в содержании вариантов 2 и 3 остались прямые отсылки к банковской системе из мастер-задания, что создаёт противоречие.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Два варианта оценены в 4 часа, один — в 6 часов. Разница в оценке времени указывает на разный уровень сложности.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (магазин, геометрические фигуры, игровые персонажи), стратегией вытеснения из кэша (LRU, LFU, FIFO) и способом обеспечения потокобезопасности (ReentrantLock, synchronized).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется от 'medium' (6 часов) до 'high' (8 часов). Варианты имеют разные ограничения (например, максимальный размер кэша) и требования к реализации.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание чётко структурировано, содержит все необходимые разделы: цель, постановку задачи, требования к реализации, ограничения, граничные случаи и критерии оценки. Формулировки ясные и полные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 3,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Мастер-задание сформулировано корректно, но в вариантах 2 и 3 не произведена полная адаптация предметной области: в тексте остались прямые указания на тестирование банковской системы, что противоречит заявленной тематике варианта. Это снижает корректность и полноту."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание имеет чёткую структуру, конкретные технические требования, варианты хорошо дифференцированы по стратегиям вытеснения и предметным областям. Все разделы проработаны, формулировки не допускают двусмысленностей."
+        }
+      ]
+    },
+    {
+      "RunId": "test-040",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-040\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-040\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 40)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание по проектированию системы управления складом соответствует дисциплине ООП, так как требует применения инкапсуляции, наследования, полиморфизма и паттернов проектирования.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Сгенерирована только одна лабораторная работа, сравнение невозможно.",
+        "SequenceLogical": false,
+        "SequenceReason": "Только одна лабораторная работа, оценка последовательности не применима."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью: электроника, аптека, спортивный инвентарь. В каждом варианте свои конкретные классы товаров и специфичные граничные случаи.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 1 оценивается в 12 часов, варианты 2 и 3 - в 8 часов, что указывает на разную сложность.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Мастер-задание четко структурировано, содержит цель, постановку задачи, контракт ввода-вывода, требования к реализации, ограничения, граничные случаи, вариативность и критерии оценки. Формулировки ясные и полные."
+        }
+      ]
+    },
+    {
+      "RunId": "test-041",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-041\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-041\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 41)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания охватывают ключевые аспекты ООП: проектирование классов, инкапсуляцию, наследование, обработку исключений и тестирование.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторная работа 1 фокусируется на разработке прототипа системы, а работа 2 - на тестировании и отладке, что представляет разные этапы разработки ПО.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: сначала создание системы (работа 1), затем её тестирование и отладка (работа 2)."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (электроника, цветочный магазин, библиотека), конкретными классами, полями и методами, а также типами коллекций и форматами файлов.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 (цветочный магазин) требует больше классов (4 вместо 3) и обработки большего числа исключений (5 вместо 4), что делает его сложнее.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": false,
+          "VariantsDifferences": "Варианты практически идентичны мастер-заданию, за исключением незначительных различий в вариативной части (фокусе на определённых операциях). Предметная область не влияет на содержание задания.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковые требования к тестовому покрытию, количеству тест-кейсов и используемым инструментам.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и ясно формулирует задачу по разработке системы управления складом. Структура включает все необходимые разделы. Качество снижено из-за неполной адаптации некоторых вариантов (вариант 3 почти копирует мастер)."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 4,
+          "Quality": 3,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно и полно описывает задачу по тестированию. Качество снижено из-за слабой вариативности: варианты почти не отличаются от мастер-задания, предметная область не интегрирована в задачу тестирования матричного калькулятора."
+        }
+      ]
+    },
+    {
+      "RunId": "test-042",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-042\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-042\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 42)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены ключевым аспектам ООП: проектированию классов, тестированию и оптимизации объектно-ориентированных систем.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Работы охватывают разные этапы жизненного цикла ПО: создание прототипа (ЛР1), тестирование и отладку (ЛР2), оптимизацию и масштабирование (ЛР3).",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от базового проектирования и реализации через тестирование к сложным темам оптимизации и отказоустойчивости."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка системы управления складом",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (магазин электроники, аптека, библиотека), что приводит к изменению классов, атрибутов и бизнес-логики.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 (аптека) оценен как 'high', а варианты 1 и 3 как 'medium', хотя оценка часов одинакова (8).",
+          "MissingGenerationReason": null
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптированы под предметную область (электронный магазин, аптека, библиотека), но степень адаптации разная: вариант 1 наиболее специализирован, варианты 2 и 3 ближе к мастер-заданию.",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности ('medium') и одинаковое расчетное время выполнения (4 часа).",
+          "MissingGenerationReason": null
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности и отказоустойчивости в ООП",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты адаптированы под предметную область с разной степенью детализации: добавлены специфичные компоненты (проверка взаимодействия лекарств, менеджер блокировок для библиотеки).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты оценены как 'high' сложности с одинаковым расчетным временем (12 часов).",
+          "MissingGenerationReason": null
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка системы управления складом",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит полные требования к реализации, ограничения, граничные случаи и критерии оценки. Варианты хорошо адаптированы под предметные области."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно и ясно формулирует цель и требования. Некоторые варианты (2 и 3) менее адаптированы под предметную область, что снижает качество и полноту."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация производительности и отказоустойчивости в ООП",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полно и ясно описывает сложные требования к производительности и отказоустойчивости. Варианты качественно адаптированы, добавлены доменно-специфичные детали."
+        }
+      ]
+    },
+    {
+      "RunId": "test-043",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-043\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-043\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 43)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание по разработке системы управления складом соответствует дисциплине, так как требует применения ООП принципов (наследование, инкапсуляция, полиморфизм) и проектирования иерархии классов.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Сгенерирована только одна лабораторная работа, сравнение невозможно.",
+        "SequenceLogical": false,
+        "SequenceReason": "Только одна лабораторная работа, оценка последовательности не применима."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка системы управления складом",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются используемой структурой данных для хранения товаров: хеш-таблица с методом цепочек, бинарное дерево поиска, красно-черное дерево.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты имеют разную сложность: два варианта средней сложности (6-8 часов), один вариант высокой сложности (12 часов) из-за реализации самобалансирующегося красно-черного дерева.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка системы управления складом",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит цель, постановку задачи, контракт ввода-вывода, требования к реализации, граничные случаи, критерии оценки и рекомендации. Формулировки ясные и полные."
+        }
+      ]
+    },
+    {
+      "RunId": "test-044",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-044\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-044\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 44)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания соответствуют дисциплине: первая работа по созданию прототипа системы на Java с ООП, вторая по тестированию и отладке.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы отличаются тематикой: первая - разработка прототипа системы управления складом, вторая - тестирование и отладка с фокусом на модульные тесты.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: сначала создание прототипа системы, затем тестирование и отладка, что соответствует этапам разработки ПО."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка системы управления складом",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются алгоритмическими требованиями: использование HashMap, бинарного поиска или AVL-дерева для хранения товаров, что влияет на структуру классов и реализацию методов.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность различается: вариант с AVL-деревом имеет высокую сложность, а варианты с HashMap и бинарным поиском - среднюю.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов",
+          "VariantsDiffer": false,
+          "VariantsDifferences": "Варианты не были сгенерированы из-за ошибки системы: не удалось создать уникальный вариант #3 после 5 попыток.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Невозможно оценить из-за отсутствия сгенерированных вариантов.",
+          "MissingGenerationReason": "Ошибка генерации: Failed to generate unique variant #3 after 5 rounds."
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка системы управления складом",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, четко сформулировано, содержит полные требования, примеры и критерии оценки. Качество высокое, но есть незначительные расхождения между мастер-заданием и вариантами."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Проектирование тестов и поиск дефектов",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Мастер-задание четкое и логичное, но содержит противоречие: в описании указан класс StringProcessor, а в вариантах также упоминается NumberProcessor. Полнота достаточная для понимания задачи."
+        }
+      ]
+    },
+    {
+      "RunId": "test-045",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-045\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-045\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 45)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены ключевым аспектам ООП: проектированию классов, тестированию, оптимизации, что соответствует дисциплине.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Работы имеют разные тематические фокусы: создание прототипа, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от создания базовой системы к её тестированию и последующей оптимизации."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются добавляемой категорией товаров (Одежда, Книги, Мебель) и специфичными функциональными требованиями (поиск по диапазону цен, сортировка, фильтрация, резервирование).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 3 имеет сложность 'high', а варианты 1 и 2 - 'medium', согласно DifficultyProfileJson.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются заявленными алгоритмическими требованиями (хеширование, дерево, стек), хотя основное содержание мастер-задания дублируется. Вариант 2 имеет несоответствующий заголовок.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 имеет сложность 'high' и оценку в 20 часов, тогда как варианты 1 и 3 - 'medium' и 6 часов.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются реализуемыми стратегиями кэширования (LFU/LRU, FIFO/Random, CLOCK/ARC) и уровнем детализации технических требований.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты 1 и 3 имеют сложность 'high', а вариант 2 - 'medium'. Оценочное время также различается.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит все необходимые разделы (цель, задача, требования, критерии). Варианты хорошо дифференцированы и детализированы."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Мастер-задание качественное, но варианты слабо отличаются по содержанию от мастера. Вариант 2 имеет заголовок, не соответствующий теме работы. Требования к вариантам сформулированы менее четко."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание логично и соответствует теме. Однако варианты не полностью выполняют требования мастера (например, не все реализуют три стратегии). Формулировки в вариантах иногда избыточны и повторяют мастер."
+        }
+      ]
+    },
+    {
+      "RunId": "test-046",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-046\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-046\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 46)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание по разработке системы управления складом требует применения принципов ООП: наследования, полиморфизма, инкапсуляции, что соответствует дисциплине.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Сгенерирована только одна лабораторная работа, невозможно сравнить различия между несколькими работами.",
+        "SequenceLogical": true,
+        "SequenceReason": "Для одной лабораторной работы последовательность тривиально логична."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка системы управления складом",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются используемой структурой данных для хранения товаров в классе Warehouse: хеш-таблица (std::unordered_map), бинарное дерево поиска (BST) и двусвязный список (std::list). Также различаются дополнительные требования, например, реализация паттерна Command или специфичные отчёты.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Вариант 2 (BST) имеет сложность 'high', в то время как варианты 1 и 3 имеют сложность 'medium'. Оценочные трудозатраты также различаются (8-12 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Разработка системы управления складом",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Задание корректно, структурировано и понятно. Имеются все необходимые разделы: цель, задача, требования, критерии оценки. Небольшие недочёты отмечены в отчётах верификации (например, недостаток деталей по формату отчётов или сериализации)."
+        }
+      ]
+    },
+    {
+      "RunId": "test-047",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-047\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-047\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 47)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания соответствуют дисциплине: лабораторная работа 1 фокусируется на проектировании классов и реализации системы, лабораторная работа 2 - на тестировании и отладке ООП-кода.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы отличаются тематикой: первая - разработка системы управления складом, вторая - тестирование матричных операций. Разные аспекты ООП.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: сначала создание прототипа системы (разработка), затем тестирование и отладка (контроль качества)."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются дополнительной функциональностью: скидки, резервирование товаров, история операций. Также применяются разные алгоритмические требования (HashMap, двусвязный список, стек+бинарный поиск).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты имеют разную оценку сложности: вариант 1 - 4 часа, варианты 2 и 3 - 6 часов. Разная трудоемкость реализации дополнительных функций.",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются тестируемыми операциями: вычисление определителя, возведение в степень, нахождение обратной матрицы. Также применяются разные алгоритмические требования (HashMap, двусвязный список, стек+бинарный поиск).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты имеют разную сложность: варианты 1 и 2 - medium (6 часов), вариант 3 - high (8 часов). Обратная матрица требует более сложной математики.",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 5,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание четко структурировано, содержит цель, постановку задачи, требования к реализации, граничные случаи и критерии оценки. Формулировки ясные и полные."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 4,
+          "Justification": "Задание в целом корректно, но вариант 1 имеет менее подробную структуру (отсутствуют некоторые разделы). В вариантах есть несоответствия алгоритмических требований тематике (например, двусвязный список для матричных операций)."
+        }
+      ]
+    },
+    {
+      "RunId": "test-048",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-048\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-048\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 48)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Все лабораторные работы посвящены ключевым аспектам ООП: проектированию классов, тестированию, шаблонам проектирования и оптимизации.",
+        "LabsDiffer": true,
+        "LabsDifferReason": "Лабораторные работы имеют разные тематические фокусы: создание прототипа, тестирование и отладка, оптимизация и масштабирование.",
+        "SequenceLogical": true,
+        "SequenceReason": "Последовательность логична: от базового проектирования классов к тестированию и далее к оптимизации и применению шаблонов проектирования."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются используемыми структурами данных (List, Dictionary, древовидная структура) и алгоритмическими требованиями (линейный поиск, хеш-таблица, обход дерева).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность варьируется: вариант 2 (Dictionary) оценен как high (10 часов), варианты 1 и 3 — medium (6 и 8 часов).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются дополнительными операциями (факториал, логарифм, работа с памятью) и алгоритмическими требованиями (линейный поиск, хеш-таблица, обход дерева).",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность неодинакова: вариант 3 оценен как high (6 часов), варианты 1 и 2 — medium (4 часа).",
+          "MissingGenerationReason": ""
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты различаются целевой СУБД (PostgreSQL, MySQL, SQLite), дополнительными функциями (проверка валидности, приоритетный доступ, восстановление) и алгоритмическими требованиями.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Сложность разная: варианты 2 и 3 оценены как high (8 и 6 часов), вариант 1 — medium (6 часов).",
+          "MissingGenerationReason": ""
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно, полно и четко структурировано. Качество немного снижено из-за неэффективности линейного поиска в больших данных, отмеченной при верификации."
+        },
+        {
+          "LabNumber": 2,
+          "AssignmentTitle": "Лабораторная работа 2: Тестирование и отладка",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 4,
+          "Clarity": 5,
+          "Justification": "Формулировки ясны и корректны. Полнота снижена из-за недостаточной детализации обработки граничных значений и переполнения в некоторых вариантах."
+        },
+        {
+          "LabNumber": 3,
+          "AssignmentTitle": "Лабораторная работа 3: Оптимизация и масштабирование",
+          "Correctness": 5,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание полное, корректное и четкое. Качество немного снижено из-за несоответствия некоторых алгоритмических требований (например, хеш-таблица для пула соединений) стандартным практикам."
+        }
+      ]
+    }
+  ]
+}

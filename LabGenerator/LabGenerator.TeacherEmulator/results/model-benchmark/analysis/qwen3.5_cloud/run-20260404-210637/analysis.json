@@ -1,0 +1,47 @@
+{
+  "StartedAtUtc": "2026-04-04T21:06:37.7627809+00:00",
+  "FinishedAtUtc": "2026-04-04T21:06:59.7564293+00:00",
+  "InputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\qwen3.5_cloud\\run-20260404-201930",
+  "OutputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\analysis\\qwen3.5_cloud\\run-20260404-210637",
+  "CriteriaPath": null,
+  "Results": [
+    {
+      "RunId": "test-072",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\qwen3.5_cloud\\run-20260404-201930\\run-test-072\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\qwen3.5_cloud\\run-20260404-201930\\run-test-072\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 72)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задания посвящены проектированию и реализации объектно-ориентированных систем, что соответствует дисциплине.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Сгенерирована только одна лабораторная работа, поэтому сравнение невозможно.",
+        "SequenceLogical": true,
+        "SequenceReason": "Лабораторная работа является первой и единственной, что логично для начала курса."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": true,
+          "VariantsDifferences": "Варианты отличаются предметной областью (библиотека, магазин, кинотеатр и т.д.) и алгоритмическим требованием (линейный поиск, бинарный поиск, хеширование и т.д.).",
+          "VariantsSameDifficulty": true,
+          "VariantsDifficultyReason": "Все варианты имеют одинаковую оценку сложности (medium) и предполагаемое время выполнения (6 часов).",
+          "MissingGenerationReason": "",
+          "VerificationRetries": 1,
+          "RegenerationRetries": 1
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 4,
+          "Justification": "Задания корректны и соответствуют принципам ООП. Качество высокое, варианты хорошо структурированы. Полнота отличная, все необходимые разделы присутствуют. Ясность хорошая, но некоторые формулировки можно улучшить."
+        }
+      ]
+    }
+  ]
+}

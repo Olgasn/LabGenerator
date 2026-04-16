@@ -1,0 +1,23 @@
+$run = Get-ChildItem .\LabGenerator\LabGenerator.TeacherEmulator\results\journal-analysis -Directory |
+  Sort-Object Name -Descending |
+  Select-Object -First 1
+
+$p = Join-Path $run.FullName 'analysis.json'
+$j = Get-Content $p -Raw -Encoding utf8 | ConvertFrom-Json
+
+$rows = $j.Results | ForEach-Object {
+  $scores = @($_.Quality | ForEach-Object { ($_.Correctness + $_.Quality + $_.Completeness + $_.Clarity) / 4 })
+  [pscustomobject]@{
+    RunId = $_.RunId
+    Discipline = $_.Discipline.Name
+    Labs = $_.Labs.Count
+    AvgScore = if ($scores.Count) { [math]::Round(($scores | Measure-Object -Average).Average, 2) } else { $null }
+    MatchDiscipline = $_.Discipline.AssignmentsMatchDiscipline
+    LabsDiffer = $_.Discipline.LabsDiffer
+    SequenceLogical = $_.Discipline.SequenceLogical
+    HasMissingGeneration = [bool]($_.Labs | Where-Object { $_.MissingGenerationReason })
+  }
+}
+
+$rows | Export-Csv (Join-Path $run.FullName 'analysis-summary.csv') -NoTypeInformation -Encoding utf8
+$rows | Out-GridView -Title $run.Name

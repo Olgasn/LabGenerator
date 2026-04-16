@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find c:DataProjectsgenerating_lab_assignmentssupport_materials -type f -name *.md)",
+      "Bash(find c:DataProjectsgenerating_lab_assignments -maxdepth 3 -type f \\\\\\(-name *.md -o -name *.txt \\\\\\))",
+      "Bash(grep -c '\"\"Succeeded\"\": true' '/c/Data/Projects/generating_lab_assignments/LabGenerator/LabGenerator.TeacherEmulator/results/test-plan/run-20260321-065943/summary.json')",
+      "Bash(grep -c '\"\"Succeeded\"\": false' '/c/Data/Projects/generating_lab_assignments/LabGenerator/LabGenerator.TeacherEmulator/results/test-plan/run-20260321-065943/summary.json')",
+      "Bash(pdftotext /c/Data/Projects/generating_lab_assignments/support_materials/first_cfp_ru.pdf -)",
+      "Bash(grep \"\\\\.cs$\")",
+      "Bash(find /c/Data/Projects/generating_lab_assignments/LabGenerator -name *prompt* -o -name *template*)",
+      "Bash(find /c/Data/Projects/generating_lab_assignments/LabGenerator -path */obj -prune -o -name *.cs -type f -exec grep -l \"DifficultyProfile\\\\|difficulty_profile\" {})",
+      "Bash(2)",
+      "Bash(ls -la /c/Data/Projects/generating_lab_assignments/lab-generator-frontend/src/app/labs/[labId]/)"
+    ]
+  }
+}

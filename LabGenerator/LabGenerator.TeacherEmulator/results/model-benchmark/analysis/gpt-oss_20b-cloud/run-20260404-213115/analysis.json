@@ -1,0 +1,47 @@
+{
+  "StartedAtUtc": "2026-04-04T21:31:15.8023797+00:00",
+  "FinishedAtUtc": "2026-04-04T21:31:25.0549692+00:00",
+  "InputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\gpt-oss_20b-cloud\\run-20260404-212131",
+  "OutputDirectory": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\analysis\\gpt-oss_20b-cloud\\run-20260404-213115",
+  "CriteriaPath": null,
+  "Results": [
+    {
+      "RunId": "test-072",
+      "SourceJsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\gpt-oss_20b-cloud\\run-20260404-212131\\run-test-072\\journal.json",
+      "SourceMarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\model-benchmark\\run-20260404-200133\\gpt-oss_20b-cloud\\run-20260404-212131\\run-test-072\\journal.md",
+      "Discipline": {
+        "Name": "Объектно-ориентированное проектирование и программирование (Test 72)",
+        "AssignmentsMatchDiscipline": true,
+        "AssignmentsMatchReason": "Задание соответствует дисциплине, так как фокусируется на объектно-ориентированном проектировании и программировании библиотечной системы.",
+        "LabsDiffer": false,
+        "LabsDifferReason": "Только одна лабораторная работа была создана, поэтому сравнение невозможно.",
+        "SequenceLogical": true,
+        "SequenceReason": "Лабораторная работа 1 логична как начальная работа по созданию прототипа."
+      },
+      "Labs": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "VariantsDiffer": false,
+          "VariantsDifferences": "Варианты отсутствуют из-за ошибки верификации.",
+          "VariantsSameDifficulty": false,
+          "VariantsDifficultyReason": "Варианты не были сгенерированы, поэтому сравнение сложности невозможно.",
+          "MissingGenerationReason": "Ошибка Ollama 429 Too Many Requests на этапе верификации, что привело к сбою генерации вариантов.",
+          "VerificationRetries": 0,
+          "RegenerationRetries": 0
+        }
+      ],
+      "Quality": [
+        {
+          "LabNumber": 1,
+          "AssignmentTitle": "Лабораторная работа 1: Реализация прототипа",
+          "Correctness": 4,
+          "Quality": 4,
+          "Completeness": 5,
+          "Clarity": 5,
+          "Justification": "Задание корректно и полно описывает разработку библиотечной системы с чёткими требованиями. Качество высокое благодаря детальным инструкциям и критериям оценки."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "CsvPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\LabGenerator.TeacherEmulator\\results\\TestPlan37_48.csv",
+  "OutputRoot": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845",
+  "StartedAtUtc": "2026-03-19T11:28:45.0337847+00:00",
+  "FinishedAtUtc": "2026-03-19T12:28:50.5895521+00:00",
+  "Succeeded": false,
+  "Cases": [
+    {
+      "TestNumber": 37,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 1,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-037\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-037\\journal.md"
+    },
+    {
+      "TestNumber": 38,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 2,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-038\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-038\\journal.md"
+    },
+    {
+      "TestNumber": 39,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 3,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-039\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-039\\journal.md"
+    },
+    {
+      "TestNumber": 40,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 1,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-040\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-040\\journal.md"
+    },
+    {
+      "TestNumber": 41,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 2,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-041\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-041\\journal.md"
+    },
+    {
+      "TestNumber": 42,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 3,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-042\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-042\\journal.md"
+    },
+    {
+      "TestNumber": 43,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 1,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-043\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-043\\journal.md"
+    },
+    {
+      "TestNumber": 44,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 2,
+      "Succeeded": false,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-044\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-044\\journal.md"
+    },
+    {
+      "TestNumber": 45,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 3,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-045\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-045\\journal.md"
+    },
+    {
+      "TestNumber": 46,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 1,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-046\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-046\\journal.md"
+    },
+    {
+      "TestNumber": 47,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 2,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-047\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-047\\journal.md"
+    },
+    {
+      "TestNumber": 48,
+      "Discipline": "Объектно-ориентированное проектирование и программирование",
+      "LabNumber": 3,
+      "Succeeded": true,
+      "JsonPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-048\\journal.json",
+      "MarkdownPath": "C:\\Data\\Projects\\generating_lab_assignments\\LabGenerator\\artifacts\\test-plan\\run-20260319-112845\\run-test-048\\journal.md"
+    }
+  ]
+}

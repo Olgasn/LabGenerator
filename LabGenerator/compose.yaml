@@ -1,0 +1,44 @@
+services:
+  webapi:
+    build:
+      context: .
+      dockerfile: ./LabGenerator.WebAPI/Dockerfile
+    container_name: labgenerator_webapi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__DefaultConnection: Data Source=/app/data/labgenius.db
+      ApplicationSettings__PgAutoMigrations: true
+      ApplicationSettings__LogLlmRequests: true
+      ApplicationSettings__LogLlmMaxChars: 1000000
+      ApplicationSettings__LlmRetryCount: 3
+      ApplicationSettings__LlmRetryMaxDelaySeconds: 120
+      ApplicationSettings__LlmRequestTimeoutSeconds: 300
+      Cors__AllowedOrigins__0: http://localhost:3000
+      LLM__Provider: Ollama
+      LLM__Ollama__BaseUrl: https://ollama.com
+      LLM__Ollama__Model: cogito-2.1:671b-cloud
+      LLM__Ollama__Temperature: "0.2"
+      LLM__Ollama__MaxOutputTokens: "4096"
+      LLM__Ollama__ApiKey: ${OLLAMA_API_KEY}
+      LLM__OpenRouter__ApiKey: ${OPENROUTER_API_KEY}
+      LLM__OpenRouter__BaseUrl: https://openrouter.ai/api/v1
+      LLM__OpenRouter__Model: deepseek/deepseek-v3.2
+      LLM__OpenRouter__Temperature: "0.2"
+      LLM__OpenRouter__MaxOutputTokens: "4096"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
+
+  frontend:
+    build:
+      context: ../lab-generator-frontend
+      dockerfile: ./Dockerfile
+    container_name: labgenerator_frontend
+    depends_on:
+      - webapi
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: http://webapi:8080
+      NODE_ENV: production
+    ports:
+      - "3000:3000"
